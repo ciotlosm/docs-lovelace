@@ -1,7 +1,6 @@
-<img align="right" height="250px" src="https://user-images.githubusercontent.com/7738048/41777567-6f8caa1a-7634-11e8-8ff4-a0589240d724.png">
-
-
 # Lovelace UI 
+
+<img align="right" height="250px" src="https://user-images.githubusercontent.com/7738048/41777567-6f8caa1a-7634-11e8-8ff4-a0589240d724.png">
 
 Below you will find different types of cards available in the new **Lovelace UI** for [Home Assistant](https://www.home-assistant.io/).
 

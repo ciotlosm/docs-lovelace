@@ -12,3 +12,7 @@ Example:
     - group.all_lights
     - group.all_locks
 ```
+
+### Feedback
+- Support divider line [#43](https://github.com/home-assistant/ui-schema/issues/43)
+- Support global control based on an entity [#35](https://github.com/home-assistant/ui-schema/issues/35)

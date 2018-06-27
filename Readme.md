@@ -77,8 +77,3 @@ As entities no longer show up automatically on your interface, it is recommended
       card_config:
         title: All entities
 ```
-
-
-## Other changes
-- Glance card ratio fixes on picture icon
-- Glance card title bug - text is no longer overflow elipsis and text now overlaps

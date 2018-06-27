@@ -19,4 +19,6 @@ views:
   name: Debugging
 ```
 
-> Theme is currently not working
+### Known issues
+
+- Theme is currently only partially usable (font color works)

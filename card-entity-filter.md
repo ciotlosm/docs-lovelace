@@ -41,3 +41,9 @@ Show only people that are at home using 'glance':
 ```
 
 ![entity-filter](https://user-images.githubusercontent.com/7738048/41775896-71d42556-762e-11e8-8b02-d75c7824300a.png)
+
+
+### Feedback
+- Support exceptions (blacklist not just whitelist). Example: show this pattern but except this pattern [#41](https://github.com/home-assistant/ui-schema/issues/41)
+- Support ordering [#47](https://github.com/home-assistant/ui-schema/issues/47)
+- Option to hide when empty [#48](https://github.com/home-assistant/ui-schema/issues/48)

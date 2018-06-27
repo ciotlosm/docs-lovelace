@@ -9,3 +9,6 @@ Example:
 - type: media-control
   entity: media_player.lounge_room
 ```
+
+### Feedback
+- Support options to hide buttons when not playing - probably to start playing when clicking the image

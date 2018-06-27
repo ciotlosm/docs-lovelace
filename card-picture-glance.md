@@ -30,3 +30,12 @@ Picture glance used together with 'entity-filter'
     image: https://images.pexels.com/photos/356048/pexels-photo-356048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=295&w=490
 # credits: @arsaboo
 ```
+
+### Known issues
+- Consistency for entities opening more info dialog [#1339](https://github.com/home-assistant/home-assistant-polymer/pull/1339)
+
+### Feedback
+- Support multiple images based on conditions around entities in the card
+- Support coordinates for positioning [#52](https://github.com/home-assistant/ui-schema/issues/52)
+- Support image source from `camera-preview` or from `media-control` [#39](https://github.com/home-assistant/ui-schema/issues/39)
+- Allow local card entity customisation [#36](https://github.com/home-assistant/ui-schema/issues/36)

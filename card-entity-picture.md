@@ -10,3 +10,6 @@ Example:
   image: https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=295&w=490
   entity: light.bed_light
 ```
+
+### Feedback
+- Support different image for on/off allowing people to show pictures of their garage door opened or closed [#51](https://github.com/home-assistant/ui-schema/issues/51)

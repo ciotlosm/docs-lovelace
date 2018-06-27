@@ -9,6 +9,7 @@ For more in depth documentation on entities, please visit the [developer documen
 The UI is structured in views and a view contains cards as seen on the example in the developer documentation.
 
 > To reports bugs or raise feature requests, please use https://github.com/home-assistant/ui-schema/issues
+
 > To access **lovelace** please go to `dev-info` and click the link '**Try out the new Lovelace UI (experimental)**' or use the "hack" below
 
 ## Cards & [views](views.md)

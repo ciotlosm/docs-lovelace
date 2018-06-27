@@ -1,7 +1,3 @@
-# Changes in 0.72.1
-
-## New cards
-
 ### [Iframe](https://developers.home-assistant.io/docs/en/lovelace_card_types.html#iframe)
 
 Iframe cards are useful to embed outside websites in your dashboard with little effort. One such example is a grafana view. You can also embed files stored in your `config/www` folder and reference them using `/local/<file>`.
@@ -24,8 +20,3 @@ Local html for custom content. Place `example.html` in your `config/www` folder 
         url: /local/example.html
         title: Sample local file
 ```
-
-
-## Other changes
-- Glance card ratio fixes on picture icon
-- Glance card title bug - text is no longer overflow elipsis and text now overlaps

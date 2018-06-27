@@ -4,9 +4,7 @@
 
 Lovelace is an **experimental** UI for [Home Assistant](https://www.home-assistant.io/) added in 0.72.0. This is *NOT* the official documentation but a walkthrough of the current cards & features.
 
-For official documentation and more technical documentation please use [developer docs for Lovelace](https://developers.home-assistant.io/docs/en/lovelace_index.html)
-
-In this repository you will find documentation for different types of cards available in **Lovelace**.
+For the official and more technical documentation please use [developer docs for Lovelace](https://developers.home-assistant.io/docs/en/lovelace_index.html)
 
 > To reports bugs or raise feature requests, please use https://github.com/home-assistant/ui-schema/issues
 

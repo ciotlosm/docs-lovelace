@@ -1,12 +1,11 @@
 # Lovelace UI 
 
 <img align="right" height="250px" src="https://user-images.githubusercontent.com/7738048/41777567-6f8caa1a-7634-11e8-8ff4-a0589240d724.png">
+Lovelace is an **experimental** UI for [Home Assistant](https://www.home-assistant.io/) added in 0.72.0. This is *NOT* the official documentation but a walkthrough of the current cards & features.
 
-Below you will find different types of cards available in the new **Lovelace UI** for [Home Assistant](https://www.home-assistant.io/).
+For official documentation and more technical documentation please use [developer docs for Lovelace](https://developers.home-assistant.io/docs/en/lovelace_index.html)
 
-For more in depth documentation on entities, please visit the [developer documentation for Lovelace UI](https://developers.home-assistant.io/docs/en/lovelace_index.html)
-
-The UI is structured in views and a view contains cards as seen on the example in the developer documentation.
+In this repository you will find documentation for different types of cards available in **Lovelace**.
 
 > To reports bugs or raise feature requests, please use https://github.com/home-assistant/ui-schema/issues
 
@@ -29,7 +28,6 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [weather-forecast](card-weather-forecast.md)
 
 ## Views
-
 These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. 
 
 ![views](https://user-images.githubusercontent.com/7738048/41777460-0c432b6e-7634-11e8-8738-ca078a552d06.gif)

@@ -59,13 +59,11 @@ Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script
 
 ## Use lovelace (Default view)
 
-> This will change in 0.73.0
-
 To make the Lovelace UI the default dashboard view use the setup described below. 
 
-This method uses a hack (that you can easily remove later) that will just force navigation to `/lovelace` everytime you navigate to `/status`
+### New to lovelace
 
-### Steps
+> This will change in 0.73.0 - Make sure to visit again
 
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
 
@@ -83,7 +81,6 @@ Content of `lovelace.html`
     });
 </script>
 ```
-
 
 Information on path for `lovelace.html` (Hass.io example):
 
@@ -108,6 +105,14 @@ frontend:
 > If you don't use `javascript_latest` just make sure you use the correct setup as in the [documentation](https://www.home-assistant.io/components/frontend/#configuration-variables)
 
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
+
+### Manual javascript
+
+TBC: Coming in 0.73.0
+
+### Changes to hack (users already on lovelace)
+
+TBC: Coming in 0.73.0
 
 ## Templating
 Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.

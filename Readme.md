@@ -26,6 +26,8 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [plant-status](card-plant-status.md)
 - [weather-forecast](card-weather-forecast.md)
 
+You can also have custom cards now. The way to add custom cards is [really easy](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html)!
+
 ## Views
 These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. 
 
@@ -103,7 +105,8 @@ frontend:
 
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
 
-**MAGIC!**
+## Templating
+Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.
 
 ## Debugging
 As entities no longer show up automatically on your interface, it is recommended that you get a View to show everything you have available to configure inside cards on your interface and other views. For this, the entity-filter card is the best to use. You can find below a configuration that does this for you. 

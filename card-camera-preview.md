@@ -1,6 +1,3 @@
-## Cards
-Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
-
 ### [Camera preview](https://developers.home-assistant.io/docs/en/lovelace_card_types.html#camera-preview)
 This card will show a camera preview. 
 

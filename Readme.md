@@ -10,9 +10,10 @@ The UI is structured in views and a view contains cards as seen on the example i
 
 > To reports bugs or raise feature requests, please use https://github.com/home-assistant/ui-schema/issues
 
-> To access **lovelace** please go to `dev-info` and click the link '**Try out the new Lovelace UI (experimental)**' or use the "hack" below
+> To access **lovelace** please go to `dev-info` and click the link **Try out the new Lovelace UI (experimental)** or [this method](https://github.com/ciotlosm/docs-lovelace#default-view)
 
-## Cards & [views](views.md)
+## Cards
+Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
 
 - [camera-preview](card-camera-preview.md)
 - [entities](card-entities.md)
@@ -26,6 +27,31 @@ The UI is structured in views and a view contains cards as seen on the example i
 - [picture-glance](card-picture-glance.md)
 - [plant-status](card-plant-status.md)
 - [weather-forecast](card-weather-forecast.md)
+
+## Views
+
+These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. 
+
+![views](https://user-images.githubusercontent.com/7738048/41777460-0c432b6e-7634-11e8-8738-ca078a552d06.gif)
+
+Examples:
+
+Without icon:
+```yaml
+views:
+- name: Home
+```
+
+With icon and hover text:
+```yaml
+views:
+- tab_icon: mdi:settings
+  name: Debugging
+```
+
+### Known issues
+
+- Theme is currently only partially usable (font color works)
 
 ## Migration script
 Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8) from the old interface.

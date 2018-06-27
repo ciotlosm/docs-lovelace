@@ -120,3 +120,6 @@ As entities no longer show up automatically on your interface, it is recommended
       card_config:
         title: All entities
 ```
+
+## Example
+To get you started you can use the `demo` platfrom in your [configuration.yaml](configuration.yaml) and try out the included [sample file](ui-lovelace.yaml)

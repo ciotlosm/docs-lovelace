@@ -8,7 +8,11 @@ For more in depth documentation on entities, please visit the [developer documen
 
 The UI is structured in views and a view contains cards as seen on the example in the developer documentation.
 
+> To reports bugs or raise feature requests, please use https://github.com/home-assistant/ui-schema/issues
 > To access **lovelace** please go to `dev-info` and click the link '**Try out the new Lovelace UI (experimental)**' or use the "hack" below
+
+## Migration script
+Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8) from the old interface.
 
 
 ## Make Lovelace UI default
@@ -59,11 +63,6 @@ frontend:
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
 
 **MAGIC!**
-
-
-## Migration script
-Thanks to @OttoWinter_ for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8) from the old interface.
-
 
 ## Debugging
 As entities no longer show up automatically on your interface, it is recommended that you get a View to show everything you have available to configure inside cards on your interface and other views. For this, the entity-filter card is the best to use. You can find below a configuration that does this for you. 

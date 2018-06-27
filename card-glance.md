@@ -26,3 +26,4 @@ Example:
 - Support toggling of entities without opening more-info [#49](https://github.com/home-assistant/ui-schema/issues/49)
 - Support justify not just align left [#28](https://github.com/home-assistant/ui-schema/issues/28)
 - Allow hiding of values and/or title [#33](https://github.com/home-assistant/ui-schema/issues/33)
+- Allow adding empty entities to allow for example a row of 5 items, where 2 are on the left and 2 are on the right with gap in middle

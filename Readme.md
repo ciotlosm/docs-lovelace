@@ -25,6 +25,7 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [picture-glance](card-picture-glance.md)
 - [plant-status](card-plant-status.md)
 - [weather-forecast](card-weather-forecast.md)
+- [picture-elements](card-picture-elements.md)
 
 You can also have custom cards now. The way to add custom cards is [really easy](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html)!
 
@@ -56,7 +57,10 @@ views:
 Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8) from the old interface.
 
 
-## Default view
+## Use lovelace (Default view)
+
+> This will change in 0.73.0
+
 To make the Lovelace UI the default dashboard view use the setup described below. 
 
 This method uses a hack (that you can easily remove later) that will just force navigation to `/lovelace` everytime you navigate to `/status`

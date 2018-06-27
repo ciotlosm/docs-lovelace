@@ -1,5 +1,7 @@
 ### [Iframe](https://developers.home-assistant.io/docs/en/lovelace_card_types.html#iframe)
 
+> Available since 0.72.1
+
 Iframe cards are useful to embed outside websites in your dashboard with little effort. One such example is a grafana view. You can also embed files stored in your `config/www` folder and reference them using `/local/<file>`.
 
 <img width="500" alt="iframe" src="https://user-images.githubusercontent.com/7738048/41901303-d47da286-7930-11e8-8ea2-8620dd81f918.png">

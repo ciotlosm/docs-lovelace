@@ -1,10 +1,5 @@
 <img align="right" height="250px" src="https://user-images.githubusercontent.com/7738048/41777567-6f8caa1a-7634-11e8-8ff4-a0589240d724.png">
 
-Version: 0.72.0
-> Note that this UI is still Experimental
-
-Migration script availabe
-> Thanks to @OttoWinter_ for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8)
 
 # Lovelace UI 
 
@@ -14,7 +9,7 @@ For more in depth documentation on entities, please visit the [developer documen
 
 The UI is structured in views and a view contains cards as seen on the example in the developer documentation.
 
-> To access **lovelace** please go to `dev-info` and click the link '**Try out the new Lovelace UI (experimental)**' or use the "hack" documented in [make-lovelace-default-hack.md](https://gist.github.com/ciotlosm/9508388876edf92c4c1f3579e740fbd5#file-make-lovelace-default-hack-md) in this gist.
+> To access **lovelace** please go to `dev-info` and click the link '**Try out the new Lovelace UI (experimental)**' or use the "hack" below
 
 
 ## Make Lovelace UI default
@@ -65,6 +60,10 @@ frontend:
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
 
 **MAGIC!**
+
+
+## Migration script
+Thanks to @OttoWinter_ for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8) from the old interface.
 
 
 ## Debugging

@@ -1,0 +1,23 @@
+demo:
+
+weather:
+  - platform: demo
+
+sensor:
+  - platform: demo
+  
+  - platform: random
+    name: conductivity
+  - platform: random
+    name: battery
+  - platform: random
+    name: brightness
+
+plant:
+  Bonsai:
+    sensors:
+      moisture: sensor.outside_humidity
+      battery: sensor.battery
+      temperature: sensor.outside_temperature
+      conductivity: sensor.conductivity
+      brightness: sensor.brightness

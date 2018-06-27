@@ -11,11 +11,28 @@ The UI is structured in views and a view contains cards as seen on the example i
 > To reports bugs or raise feature requests, please use https://github.com/home-assistant/ui-schema/issues
 > To access **lovelace** please go to `dev-info` and click the link '**Try out the new Lovelace UI (experimental)**' or use the "hack" below
 
+## Cards & [views](views.md)
+
+- [camera-preview](card-camera-preview.md)
+- [entities](card-entities.md)
+- [entity-filter](card-entity-filter.md)
+- [entity-picture](card-entity-picture.md)
+- [glance](card-glance.md)
+- [history-graph](card-history-graph.md)
+- [iframe](card-iframe.md)
+- [markdown](card-markdown.md)
+- [media-control](card-media-control.md)
+- [picture-glance](card-picture-glance.md)
+- [plant-status](card-plant-status.md)
+- [weather-forecast](card-weather-forecast.md)
+
 ## Migration script
 Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8) from the old interface.
 
 
-## Make Lovelace UI default
+## Default view
+To make the Lovelace UI the default dashboard view use the setup described below. 
+
 This method uses a hack (that you can easily remove later) that will just force navigation to `/lovelace` everytime you navigate to `/status`
 
 ### Steps

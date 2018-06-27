@@ -1,6 +1,7 @@
 # Lovelace UI 
 
 <img align="right" height="250px" src="https://user-images.githubusercontent.com/7738048/41777567-6f8caa1a-7634-11e8-8ff4-a0589240d724.png">
+
 Lovelace is an **experimental** UI for [Home Assistant](https://www.home-assistant.io/) added in 0.72.0. This is *NOT* the official documentation but a walkthrough of the current cards & features.
 
 For official documentation and more technical documentation please use [developer docs for Lovelace](https://developers.home-assistant.io/docs/en/lovelace_index.html)

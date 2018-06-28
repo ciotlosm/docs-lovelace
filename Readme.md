@@ -8,7 +8,7 @@ For the official and more technical documentation please use [developer docs for
 
 > To reports bugs or raise feature requests, please use https://github.com/home-assistant/ui-schema/issues
 
-> To access **lovelace** please go to `dev-info` and click the link **Try out the new Lovelace UI (experimental)** or [this method](https://github.com/ciotlosm/docs-lovelace#default-view)
+> To access **lovelace** please go to `dev-info` and click the link **Try out the new Lovelace UI (experimental)** or [this method](https://github.com/ciotlosm/docs-lovelace#use-lovelace-default-view)
 
 ## Cards
 Cards are the smallest unit of organisation, and provide a great setup to group functionality. 

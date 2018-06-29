@@ -75,9 +75,9 @@ Click the `>> Set lovelace as default page page on this device <<` in `dev-info`
 
 ### Forcing Overview to `lovelace/0`
 
-This is a hack and will force your menu to use `/lovelace` instead of `/status` by using both the javascript to set default dashboard for `/` and an update on the menu to force **Overview** to use `/lovelace`. 
+This is a hack and will force your menu to use `/lovelace` instead of `/states` by using both the javascript to set default dashboard for `/` and an update on the menu to force **Overview** to use `/lovelace`. 
 
-> Forcing your path to `/status` will still load the old dashboard page
+> Forcing your path to `/states` will still load the old dashboard page
 
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
 

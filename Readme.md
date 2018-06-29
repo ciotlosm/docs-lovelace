@@ -83,15 +83,11 @@ Content of `lovelace.html`
 
 ```html
 <script>
-    if (window.location.pathname === "/states") {
-        window.location.href = "lovelace/0"
+    var hack_element = document.querySelector('home-assistant').shadowRoot.querySelector('home-assistant-main').shadowRoot.querySelector('ha-sidebar').shadowRoot.querySelector('paper-icon-item[data-panel="states"]');
+    if (hack_element) {
+        hack_element.setAttribute("data-panel", "lovelace/0");
+        localStorage.defaultPage = 'lovelace/0';
     }
-    window.addEventListener("location-changed", function (e) {
-        if (e.currentTarget.location.pathname === "/states") {
-            window.location.href = "lovelace/0"
-        }
-    });
-    localStorage.defaultPage = 'lovelace/0'
 </script>
 ```
 
@@ -100,6 +96,7 @@ Information on path for `lovelace.html` (Hass.io example):
 ```bash
 core-ssh:/config/www# pwd
 /config/www
+
 core-ssh:/config/www# ls 
 lovelace.html
 ```

@@ -27,4 +27,4 @@ Example with night/day:
 ```
 
 ### Feedback
-- Support different image for on/off allowing people to show pictures of their garage door opened or closed [#51](https://github.com/home-assistant/ui-schema/issues/51)
+- ~Support different image for on/off allowing people to show pictures of their garage door opened or closed [#51](https://github.com/home-assistant/ui-schema/issues/51)~

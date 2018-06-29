@@ -14,6 +14,7 @@ For the official and more technical documentation please use [developer docs for
 Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
 
 - [camera-preview](card-camera-preview.md)
+- [column](card-column.md)
 - [entities](card-entities.md)
 - [entity-filter](card-entity-filter.md)
 - [glance](card-glance.md)
@@ -25,6 +26,7 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [picture-entity](card-picture-entity.md)
 - [picture-glance](card-picture-glance.md)
 - [plant-status](card-plant-status.md)
+- [row](card-row.md)
 - [weather-forecast](card-weather-forecast.md)
 
 You can also have custom cards now. The way to add custom cards is [really easy](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html)!

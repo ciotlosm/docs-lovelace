@@ -55,8 +55,12 @@ views:
 
 - Theme is currently only partially usable (font color works)
 
-## Migration script
-Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8) from the old interface.
+## Migration scripts
+
+Thare are two migration scripts:
+
+- Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8)
+- Thanks to [@dale3h](https://github.com/dale3h) for the [migration script that works also for packages](https://gist.github.com/dale3h/ee5b08ed1bf3a26a57e3d56ae221a796)
 
 
 ## Use lovelace (Default view)

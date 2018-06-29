@@ -25,14 +25,14 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [picture-entity](card-picture-entity.md)
 - [picture-glance](card-picture-glance.md)
 - [plant-status](card-plant-status.md)
-- [row](card-row.md)
-- [stack](card-stack.md)
+- [horizontal-stack](card-horizontal-stack.md)
+- [vertical-stack](card-vertical-stack.md)
 - [weather-forecast](card-weather-forecast.md)
 
 You can also have custom cards now. The way to add custom cards is [really easy](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html)!
 
 ## Views
-These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. 
+These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. The views have now deep links like `/lovelace/3`. You can also assing your custom ids 
 
 ![views](https://user-images.githubusercontent.com/7738048/41777460-0c432b6e-7634-11e8-8738-ca078a552d06.gif)
 
@@ -48,8 +48,11 @@ With icon and hover text:
 ```yaml
 views:
 - icon: mdi:settings
+  id: debug
   title: Debugging
 ```
+
+> The view above will be accessible using `/lovelace/debug`
 
 ### Known issues
 

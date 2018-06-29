@@ -75,7 +75,7 @@ Click the `>> Set lovelace as default page page on this device <<` in `dev-info`
 
 ### Forcing Overview to `lovelace/0`
 
-This is a hack and will force your menu to use `/lovelace/0` instead of `/status` by using both the javascript to set default dashboard for `/` and an update on the menu to force **Overview** to use `/lovelace/0`. 
+This is a hack and will force your menu to use `/lovelace` instead of `/status` by using both the javascript to set default dashboard for `/` and an update on the menu to force **Overview** to use `/lovelace`. 
 
 > Forcing your path to `/status` will still load the old dashboard page
 
@@ -87,8 +87,8 @@ Content of `lovelace.html`
 <script>
     var hack_element = document.querySelector('home-assistant').shadowRoot.querySelector('home-assistant-main').shadowRoot.querySelector('ha-sidebar').shadowRoot.querySelector('paper-icon-item[data-panel="states"]');
     if (hack_element) {
-        hack_element.setAttribute("data-panel", "lovelace/0");
-        localStorage.defaultPage = 'lovelace/0';
+        hack_element.setAttribute("data-panel", "lovelace");
+        localStorage.defaultPage = 'lovelace';
     }
 </script>
 ```
@@ -114,16 +114,6 @@ frontend:
 ```
 
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
-
-### Manual javascript
-
-To make the default view the second tab of Lovelace when accessing `https://<your_home_url>/` run:
-
-```js
-localStorage.defaultPage = 'lovelace/1' // counting starts from 0
-```
-
-> This will not force `/status` to open the Lovelace UI, for that please use **Forcing `/status`** section
 
 ## Templating
 Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.

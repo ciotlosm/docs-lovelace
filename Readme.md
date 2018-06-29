@@ -132,7 +132,7 @@ As entities no longer show up automatically on your interface, it is recommended
   cards:
     - type: entity-filter
       filter: [{}]
-      card_config:
+      card:
         title: All entities
 ```
 

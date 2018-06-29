@@ -8,3 +8,4 @@
 - [cards] `entity-picture` renamed `picture-entity` to be consistent with `picture-glance`
 - [cards] `glance` fix for title
 - [cards] `glance` allow custom title inside glance
+- [cards] `entity-filter` removed `card_config` and made `card` property an object

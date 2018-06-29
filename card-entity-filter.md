@@ -16,7 +16,7 @@ Show only active switches or lights in the house
       state: 'on'
     - domain: switch
       state: 'on'
-  card_config:
+  card:
     title: Eating power
 ```
 
@@ -25,7 +25,7 @@ Automatically group all kitchen entities:
 - type: entity-filter
   filter:
     - entity_id: '*kitchen*'
-  card_config:
+  card:
     title: Kitchen
 ```
 
@@ -35,8 +35,8 @@ Show only people that are at home using 'glance':
   filter:
     - domain: device_tracker
       state: 'home'
-  card: glance
-  card_config:
+  card: 
+    type: glance
     title: People at home
 ```
 

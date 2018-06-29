@@ -69,7 +69,9 @@ To make the Lovelace UI the default dashboard view use one of the methods below.
 
 ### Using UI
 
-Click the :heart: icon on top right and you will make lovelace the default view when accessing `/`.
+Click the `>> Set lovelace as default page page on this device <<` in `dev-info` panel to make Lovelace the default interface when visiting `/`. 
+
+> You can the same area in `dev-info` panel to opt out of lovelace being your default dashboard by clicking `>> Remove lovelace as default page page on this device <<`
 
 ### Forcing `/status`
 

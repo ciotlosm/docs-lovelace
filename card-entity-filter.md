@@ -27,6 +27,7 @@ Automatically group all kitchen entities:
     - entity_id: '*kitchen*'
   card:
     title: Kitchen
+    show_header_toggle: false
 ```
 
 Show only people that are at home using 'glance':

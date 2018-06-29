@@ -73,7 +73,7 @@ Click the `>> Set lovelace as default page page on this device <<` in `dev-info`
 
 > You can the same area in `dev-info` panel to opt out of lovelace being your default dashboard by clicking `>> Remove lovelace as default page page on this device <<`
 
-### Forcing Overview to `lovelace/0`
+### Forcing Overview to lovelace
 
 This is a hack and will force your menu to use `/lovelace` instead of `/states` by using both the javascript to set default dashboard for `/` and an update on the menu to force **Overview** to use `/lovelace`. 
 

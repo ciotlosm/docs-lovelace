@@ -69,8 +69,6 @@ To make the Lovelace UI the default dashboard view use the setup described below
 
 ### New to lovelace
 
-> This will change in 0.73.0 - Make sure to visit again
-
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
 
 Content of `lovelace.html`
@@ -78,13 +76,14 @@ Content of `lovelace.html`
 ```html
 <script>
     if (window.location.pathname === "/states") {
-        window.location.href = "/lovelace"
+        window.location.href = "lovelace/0"
     }
     window.addEventListener("location-changed", function (e) {
         if (e.currentTarget.location.pathname === "/states") {
-            window.location.href = "/lovelace"
+            window.location.href = "lovelace/0"
         }
     });
+    localStorage.defaultPage = 'lovelace/0'
 </script>
 ```
 
@@ -114,11 +113,13 @@ frontend:
 
 ### Manual javascript
 
-TBC: Coming in 0.73.0
+To make the second tab default when accessing `https://<your_home_url>/` instead of `/states` run:
 
-### Changes to hack (users already on lovelace)
+```js
+localStorage.defaultPage = 'lovelace/1' // counting starts from 0
+```
 
-TBC: Coming in 0.73.0
+> This method will not force lovelace when navigation is done through the left menu to `Overview`
 
 ## Templating
 Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.

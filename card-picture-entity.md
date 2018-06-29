@@ -13,7 +13,7 @@ Example:
   entity: light.bed_light
 ```
 
-![living-lights](https://user-images.githubusercontent.com/7738048/42104612-f3592764-7bd5-11e8-9cf9-79a9af56640b.gif)
+![living-lights](https://user-images.githubusercontent.com/7738048/42104959-57111504-7bd7-11e8-94cc-d09871ee4b45.gif)
 
 Example with night/day:
 

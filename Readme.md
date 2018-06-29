@@ -32,7 +32,7 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 You can also have custom cards now. The way to add custom cards is [really easy](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html)!
 
 ## Views
-These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. The views have now deep links like `/lovelace/3`. You can also assing your custom ids 
+These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. The views have now deep links like `/lovelace/3`. You can also assign your own custom id.
 
 ![views](https://user-images.githubusercontent.com/7738048/41777460-0c432b6e-7634-11e8-8738-ca078a552d06.gif)
 

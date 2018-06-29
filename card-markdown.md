@@ -13,4 +13,4 @@ Example:
 ```
 
 ### Feedback
-- Support templating [#55](https://github.com/home-assistant/ui-schema/issues/55)
+- ~Support templating [#55](https://github.com/home-assistant/ui-schema/issues/55)~

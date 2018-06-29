@@ -117,15 +117,13 @@ frontend:
 
 ### Manual javascript
 
-Navigate to lovelace by either going to `/lovelace` or clicking the 
-
-To make the second tab default when accessing `https://<your_home_url>/` instead of `/states` run:
+To make the default view the second tab of Lovelace when accessing `https://<your_home_url>/` run:
 
 ```js
 localStorage.defaultPage = 'lovelace/1' // counting starts from 0
 ```
 
-
+> This will not force `/status` to open the Lovelace UI, for that please use **Forcing `/status`** section
 
 ## Templating
 Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.

@@ -67,6 +67,8 @@ Thare are two migration scripts:
 
 To make the Lovelace UI the default dashboard view use the setup described below. 
 
+> This is a hack and will generate a page reload every time you click on `Overview`, however starting with 0.73.0 you will no longer get reloads when using `/` as entry point
+
 ### New to lovelace
 
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
@@ -102,12 +104,9 @@ Example configuration:
 
 ```yaml
 frontend:
-  javascript_version: latest
   extra_html_url:
     - /local/lovelace.html
 ```
-
-> If you don't use `javascript_latest` just make sure you use the correct setup as in the [documentation](https://www.home-assistant.io/components/frontend/#configuration-variables)
 
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
 

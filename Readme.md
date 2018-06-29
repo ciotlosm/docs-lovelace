@@ -75,8 +75,7 @@ Click the `>> Set lovelace as default page page on this device <<` in `dev-info`
 
 ### Forcing `/status`
 
-> This is a hack and will generate a page reload every time you click on `Overview`, however starting with 0.73.0 you will no longer get reloads when using `/` as entry point
-
+This is a hack and will force your page to load `/lovelace/0` when your browser reaches `/status`, either through deep link or by clicking **Overview** in the menu. Because this is a client side redirect, you will see a flicker.
 
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
 

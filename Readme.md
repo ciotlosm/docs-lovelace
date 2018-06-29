@@ -73,9 +73,11 @@ Click the `>> Set lovelace as default page page on this device <<` in `dev-info`
 
 > You can the same area in `dev-info` panel to opt out of lovelace being your default dashboard by clicking `>> Remove lovelace as default page page on this device <<`
 
-### Forcing `/status`
+### Forcing Overview to `lovelace/0`
 
-This is a hack and will force your page to load `/lovelace/0` when your browser reaches `/status`, either through deep link or by clicking **Overview** in the menu. Because this is a client side redirect, you will see a flicker.
+This is a hack and will force your menu to use `/lovelace/0` instead of `/status` by using both the javascript to set default dashboard for `/` and an update on the menu to force **Overview** to use `/lovelace/0`. 
+
+> Forcing your path to `/status` will still load the old dashboard page
 
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
 

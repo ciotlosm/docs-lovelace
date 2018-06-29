@@ -16,16 +16,16 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [camera-preview](card-camera-preview.md)
 - [entities](card-entities.md)
 - [entity-filter](card-entity-filter.md)
-- [entity-picture](card-entity-picture.md)
 - [glance](card-glance.md)
 - [history-graph](card-history-graph.md)
 - [iframe](card-iframe.md)
 - [markdown](card-markdown.md)
 - [media-control](card-media-control.md)
+- [picture-elements](card-picture-elements.md)
+- [picture-entity](card-picture-entity.md)
 - [picture-glance](card-picture-glance.md)
 - [plant-status](card-plant-status.md)
 - [weather-forecast](card-weather-forecast.md)
-- [picture-elements](card-picture-elements.md)
 
 You can also have custom cards now. The way to add custom cards is [really easy](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html)!
 
@@ -39,14 +39,14 @@ Examples:
 Without icon:
 ```yaml
 views:
-- name: Home
+- title: Home
 ```
 
 With icon and hover text:
 ```yaml
 views:
-- tab_icon: mdi:settings
-  name: Debugging
+- icon: mdi:settings
+  title: Debugging
 ```
 
 ### Known issues
@@ -131,4 +131,4 @@ As entities no longer show up automatically on your interface, it is recommended
 ```
 
 ## Example
-To get you started you can use the `demo` platfrom in your [configuration.yaml](configuration.yaml) and try out the included [sample file](ui-lovelace.yaml)
+To get you started you can use the `demo` platfrom in your configuration.yaml. There are many examples found [here](https://github.com/home-assistant/ui-schema/blob/master/dev_repo_test_config)

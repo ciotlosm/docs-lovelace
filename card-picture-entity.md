@@ -6,7 +6,7 @@ A very useful card for entities that have on/off states. It allows you to genera
 
 Example:
 ```yaml
-- type: entity-picture
+- type: picture-entity
   image: https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=295&w=490
   entity: light.bed_light
 ```

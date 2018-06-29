@@ -18,7 +18,7 @@ Example:
     - lock.kitchen_door
 ```
 
-![glance-with-title](https://user-images.githubusercontent.com/7738048/42103814-f156ebc0-7bd2-11e8-941c-1755623c810c.png)
+![glance-with-title](https://user-images.githubusercontent.com/7738048/42103958-89dadac8-7bd3-11e8-95a6-7dfe6a0ebd6b.png)
 
 Example with custom title
 ```yaml

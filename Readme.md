@@ -8,7 +8,7 @@ For the official and more technical documentation please use [developer docs for
 
 > To reports bugs or raise feature requests, please use https://github.com/home-assistant/ui-schema/issues
 
-> To access **lovelace** please go to `dev-info` and click the link **Try out the new Lovelace UI (experimental)** or [this method](https://github.com/ciotlosm/docs-lovelace#use-lovelace-default-view)
+> To access **lovelace** please go to `dev-info` and click the link **Try out the new Lovelace UI (experimental)** 
 
 ## Cards
 Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
@@ -60,16 +60,21 @@ views:
 Thare are two migration scripts:
 
 - Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8)
-- Thanks to [@dale3h](https://github.com/dale3h) for the [migration script that works also for packages](https://gist.github.com/dale3h/ee5b08ed1bf3a26a57e3d56ae221a796)
+- Thanks to [@dale3h](https://github.com/dale3h) for the [migration script that works also for packages](https://github.com/dale3h/python-lovelace)
 
 
 ## Use lovelace (Default view)
 
-To make the Lovelace UI the default dashboard view use the setup described below. 
+To make the Lovelace UI the default dashboard view use one of the methods below.
+
+### Using UI
+
+Click the :heart: icon on top right and you will make lovelace the default view when accessing `/`.
+
+### Forcing `/status`
 
 > This is a hack and will generate a page reload every time you click on `Overview`, however starting with 0.73.0 you will no longer get reloads when using `/` as entry point
 
-### New to lovelace
 
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
 
@@ -112,13 +117,15 @@ frontend:
 
 ### Manual javascript
 
+Navigate to lovelace by either going to `/lovelace` or clicking the 
+
 To make the second tab default when accessing `https://<your_home_url>/` instead of `/states` run:
 
 ```js
 localStorage.defaultPage = 'lovelace/1' // counting starts from 0
 ```
 
-> This method will not force lovelace when navigation is done through the left menu to `Overview`
+
 
 ## Templating
 Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.

@@ -9,3 +9,4 @@
 - [cards] `glance` fix for title
 - [cards] `glance` allow custom title inside glance
 - [cards] `entity-filter` removed `card_config` and made `card` property an object
+- [cards] Introduced new option support: `show_header_toggle` that supports `true`/`false`

@@ -33,6 +33,7 @@
 - `glance` allow custom title for entities - rename your entity only in this card
 - `entity-filter` removed `card_config` and made `card` property an object
 - `entities` toggle button in header can now be hidden using `show_header_toggle: false`
+- Fix use of groups in `picture-entity`
 - Fix title in `glance` to avoid overlapping
 
 ## Changes in 0.72.1

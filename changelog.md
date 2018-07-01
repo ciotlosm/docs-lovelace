@@ -1,3 +1,6 @@
+## [not released] Changes in 0.73.0b2
+- [card] fix wrapping and padding for `service-button` in `picture-elements` 
+
 ## Changes in 0.73.0b1
 - [cards] `column` renamed to `vertical-stack`
 - [cards] `row` renamed to `horizontal-stack`

@@ -4,6 +4,20 @@
 
 Starting with Home Assistant 0.72, we're experimenting with a new way of defining your interface. We're calling it the Lovelace UI.
 
+**Contents**
+   * [Lovelace UI](#lovelace-ui)
+      * [Overview](#overview)
+      * [Cards](#cards)
+      * [Views](#views)
+         * [Known issues](#known-issues)
+      * [Migration scripts](#migration-scripts)
+      * [Use lovelace (Default view)](#use-lovelace-default-view)
+         * [Using UI](#using-ui)
+         * [Forcing Overview to lovelace](#forcing-overview-to-lovelace)
+      * [Templating](#templating)
+      * [Debugging](#debugging)
+      * [Example](#example)
+
 ## Overview
 The Lovelace UI is:
 

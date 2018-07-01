@@ -46,7 +46,7 @@ Automatically group all kitchen entities:
     show_header_toggle: false
 ```
 
-Show only people that are at home using 'glance':
+Show only people that are at home using [glance](card-glance.md):
 ```yaml
 - type: entity-filter
   filter:

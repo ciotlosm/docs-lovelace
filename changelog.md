@@ -1,7 +1,7 @@
 ## [not released] Changes in 0.73.0b2
 
 ### Cards
-- Fix wrapping and padding for `service-button` in `picture-elements` 
+- :wrench: Fix wrapping and padding for `service-button` in `picture-elements` 
 
 ## Changes in 0.73.0b1
 
@@ -15,32 +15,32 @@
 - `picture-elements` combined `service.domain` and `service.server` into `service`
 - `entities` allow custom title just like `glance`
 - `entity-filter` allow auto-hide if empty using `show_empty: false`
-- Fix card size calculation `horizontal-stack`/`vertical-stack` 
+- :wrench: Fix card size calculation `horizontal-stack`/`vertical-stack` 
 
 ## Changes in 0.73.0b0
-- New feature to allow Lovelace to be default for `/`
+- :mega: New feature to allow Lovelace to be default for `/`
 
 ### Views
+- :mega: Now views have deep-links: `/lovelace/3` will link to the tab with id `3`
 - `name` renamed `title` to match cards setup
 - `tab_icon` renamed `icon` for simplicity
-- Now views have deep-links: `/lovelace/3` will link to the tab with id `3`
 
 ### Cards
-- New card: `picture-elements`
-- New card: `column`
-- New card: `row`
+- :mega: New card: `picture-elements`
+- :mega: New card: `column`
+- :mega: New card: `row`
 - `entity-picture` renamed `picture-entity` to be consistent with `picture-glance`
 - `glance` allow custom title for entities - rename your entity only in this card
 - `entity-filter` removed `card_config` and made `card` property an object
 - `entities` toggle button in header can now be hidden using `show_header_toggle: false`
-- Fix use of groups in `picture-entity`
-- Fix title in `glance` to avoid overlapping
+- :wrench: Fix use of groups in `picture-entity`
+- :wrench: Fix title in `glance` to avoid overlapping
 
 ## Changes in 0.72.1
 
 ### Cards
-- Bug introduced in `glance` card - titles now overlap
-- New card: `iframe`
+- :beetle: Bug introduced in `glance` card - titles now overlap
+- :mega: New card: `iframe`
 
 ## Changes in 0.72
 - Initial release of the Lovelace UI

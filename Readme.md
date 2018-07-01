@@ -18,6 +18,7 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [entity-filter](card-entity-filter.md)
 - [glance](card-glance.md)
 - [history-graph](card-history-graph.md)
+- [horizontal-stack](card-horizontal-stack.md)
 - [iframe](card-iframe.md)
 - [markdown](card-markdown.md)
 - [media-control](card-media-control.md)
@@ -25,7 +26,6 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [picture-entity](card-picture-entity.md)
 - [picture-glance](card-picture-glance.md)
 - [plant-status](card-plant-status.md)
-- [horizontal-stack](card-horizontal-stack.md)
 - [vertical-stack](card-vertical-stack.md)
 - [weather-forecast](card-weather-forecast.md)
 

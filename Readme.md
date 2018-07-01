@@ -150,4 +150,4 @@ As entities no longer show up automatically on your interface, it is recommended
 ```
 
 ## Example
-To get you started you can use the `demo` platfrom in your configuration.yaml. There are many examples found [here](https://github.com/home-assistant/ui-schema/blob/master/dev_repo_test_config)
+To get you started you can use the `demo` platfrom in your `configuration.yaml`. There are many examples found [here](https://github.com/home-assistant/ui-schema/blob/master/dev_repo_test_config)

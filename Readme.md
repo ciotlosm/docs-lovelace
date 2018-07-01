@@ -5,18 +5,17 @@
 Starting with Home Assistant 0.72, we're experimenting with a new way of defining your interface. We're calling it the Lovelace UI.
 
 **Contents**
-   * [Lovelace UI](#lovelace-ui)
-      * [Overview](#overview)
-      * [Cards](#cards)
-      * [Views](#views)
-         * [Known issues](#known-issues)
-      * [Migration scripts](#migration-scripts)
-      * [Use lovelace (Default view)](#use-lovelace-default-view)
-         * [Using UI](#using-ui)
-         * [Forcing Overview to lovelace](#forcing-overview-to-lovelace)
-      * [Templating](#templating)
-      * [Debugging](#debugging)
-      * [Example](#example)
+  * [Overview](#overview)
+  * [Cards](#cards)
+  * [Views](#views)
+      * [Known issues](#known-issues)
+  * [Migration scripts](#migration-scripts)
+  * [Make Lovelace default](#make-lovelace-default)
+      * [Using UI](#using-ui)
+      * [Overview binding](#overview-binding)
+  * [Templating](#templating)
+  * [Debugging](#debugging)
+  * [Example](#example)
 
 ## Overview
 The Lovelace UI is:
@@ -86,7 +85,7 @@ Thare are two migration scripts:
 - Thanks to [@dale3h](https://github.com/dale3h) for the [migration script that works also for packages](https://github.com/dale3h/python-lovelace)
 
 
-## Use lovelace (Default view)
+## Make Lovelace default
 
 To make the Lovelace UI the default dashboard view use one of the methods below.
 
@@ -96,9 +95,9 @@ Click the `>> Set lovelace as default page page on this device <<` in `dev-info`
 
 > You can the same area in `dev-info` panel to opt out of lovelace being your default dashboard by clicking `>> Remove lovelace as default page page on this device <<`
 
-### Forcing Overview to lovelace
+### Overview binding
 
-This is a hack and will force your menu to use `/lovelace` instead of `/states` by using both the javascript to set default dashboard for `/` and an update on the menu to force **Overview** to use `/lovelace`. 
+This is a **hack** that will bind `/lovelace` to **Overview** option in the menu instead of `/states` using javascript. It will also set default dashboard for `/` using the same mechanic as **Using UI** method. 
 
 > Forcing your path to `/states` will still load the old dashboard page
 

@@ -1,7 +1,7 @@
 ## [not released] Changes in 0.73.0b2
 
 ### Cards
-- [card] fix wrapping and padding for `service-button` in `picture-elements` 
+- Fix wrapping and padding for `service-button` in `picture-elements` 
 
 ## Changes in 0.73.0b1
 

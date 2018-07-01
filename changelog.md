@@ -15,7 +15,7 @@
 - `picture-elements` combined `service.domain` and `service.server` into `service`
 - `entities` allow custom title just like `glance`
 - `entity-filter` allow auto-hide if empty using `show_empty: false`
-- `horizontal-stack`/`vertical-stack` fix card size calculation
+- Fix card size calculation `horizontal-stack`/`vertical-stack` 
 
 ## Changes in 0.73.0b0
 - New feature to allow Lovelace to be default for `/`
@@ -30,7 +30,7 @@
 - New card: `column`
 - New card: `row`
 - `entity-picture` renamed `picture-entity` to be consistent with `picture-glance`
-- `glance` fix for title
-- `glance` allow custom title inside glance
+- `glance` allow custom title for entities - rename your entity only in this card
 - `entity-filter` removed `card_config` and made `card` property an object
 - `entities` toggle button in header can now be hidden using `show_header_toggle: false`
+- Fix title in `glance` to avoid overlapping

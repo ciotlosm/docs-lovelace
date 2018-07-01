@@ -3,7 +3,7 @@
 - [cards] `row` renamed to `horizontal-stack`
 - [cards] `picture-elements` new `state-badge` using `ha-state-label-badge`
 - [cards] `picture-elements` renamed `state-badge` to `state-icon`
-- [cards] `picture-elements` renamed `state-text` to `tate-label`
+- [cards] `picture-elements` renamed `state-text` to `state-label`
 - [cards] `picture-elements` moved/renamed `service.data` to `service_data`
 - [cards] `picture-elements` combined `service.domain` and `service.server` into `service`
 

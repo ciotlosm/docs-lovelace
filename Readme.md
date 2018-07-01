@@ -8,7 +8,6 @@ Starting with Home Assistant 0.72, we're experimenting with a new way of definin
   * [Overview](#overview)
   * [Cards](#cards)
   * [Views](#views)
-      * [Known issues](#known-issues)
   * [Migration scripts](#migration-scripts)
   * [Make Lovelace default](#make-lovelace-default)
       * [Using UI](#using-ui)

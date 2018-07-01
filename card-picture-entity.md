@@ -1,12 +1,25 @@
-### [Entity picture](https://developers.home-assistant.io/docs/en/lovelace_card_types.html#entity-picture)
+### Entity picture
 
 A very useful card for entities that have on/off states. It allows you to generate a very nice looking card with a big touch area, highly recommended for mobile dashboards on small screens.
 
-You can use different image combination to get a more realistic view for images with lights, but also enough flexibility to get your garage picture with the door opened and closed.
+You can use different image combination to get a more realistic view for images with lights. The image setup also allows enough flexibility to get your garage picture with the door opened and closed.
 
 ![entity-picture](https://user-images.githubusercontent.com/7738048/41775897-71fca8a0-762e-11e8-9f14-71473b4db153.gif)
 
-Example:
+**Options**
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `picture-entity`
+| entity | string | **Required** | Entity id to control via picture.
+| image | string | optional| URL of an image.
+| state_image | object | optional| `{'on': '/on.png', ... 'default': '/default.png'}`
+| title | string | Optional | Card title
+
+**Examples**
+
+Basic example:
+
 ```yaml
 - type: picture-entity
   image: https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=295&w=490

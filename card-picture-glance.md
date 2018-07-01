@@ -1,4 +1,4 @@
-### [Picture glance](https://developers.home-assistant.io/docs/en/lovelace_card_types.html#picture-glance)
+### Picture glance
 
 Picture glance is an even more useful type of card that can display sensors, switches, lights and other entities grouped on top of a custom image. Use for this card are for easy recognition inside a large dashboard. What really sets this card apart is the ability to **control** entities directly from the card without the need to open the details of that entity.
 
@@ -6,7 +6,16 @@ Picture glance is an even more useful type of card that can display sensors, swi
 
 ![picture-glance](https://user-images.githubusercontent.com/7738048/41776092-1194fcc8-762f-11e8-92a7-a40fec0b64a3.gif)
 
-Examples:
+**Options**
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `picture-glance`
+| image | string | **Required** | URL of an image
+| entities | list | **Required** | Entity id's
+| title | string | Optional | Card title
+
+**Examples**
 
 ```yaml
 - type: picture-glance

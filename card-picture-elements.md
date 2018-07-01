@@ -1,13 +1,62 @@
-### [Picture elements](https://developers.home-assistant.io/docs/en/lovelace_card_types.html#picture-elements)
+### Picture elements
 
 Picture elements card is one of the most versatile type of cards. I am almost sure that those that like to customize a lot in their home assistant interface will **love** this card. 
 
-The cards allows you to position icons or text and even services! on an image based on coordinates. Imagine floor plan, imagine picture glance with no restrictions!
+The cards allows you to position icons or text and even services! on an image based on coordinates. Imagine floor plan, imagine [picture-glance](card-picture-glance.md) with no restrictions!
 
 You can customize tap action and even icon color.
 
 ![floor-plan](https://user-images.githubusercontent.com/7738048/42103244-26bec55a-7bd1-11e8-8bc9-6a130c513f9e.gif)
 
+**Options**
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `picture-elements`
+| image | string | **Required** | URL of an image
+| elements | list | **Required** | List of elements
+| title | string | Optional | Card title
+
+Element types:
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `state-badge`
+| entity | string | **Required** | Entity id
+| style | object | **Required** | See "Style options"
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `state-icon`
+| entity | string | **Required** | Entity id
+| style | object | **Required** | See "Style options"
+| tap_action | string | more-info | Set to `toggle` to change state
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `state-label`
+| entity | string | **Required** | Entity id
+| style | object | **Required** | See "Style options"
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `service-button`
+| service | string | **Required** | `light.turn_on`
+| service_data | object | optional | `{'entity_id': 'light.floor'}`
+| style | object | **Required** | See "Style options"
+| title | string | optional | Button label
+
+
+Style options (CSS):
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| left | string | **Required** | Position from left, `25%`
+| top | string | **Required** | Position from top, `50%`
+| ... | string | inherit | ...
+| "--paper-item-icon-color" | string | inherit | Badge-icon off-color, `green`
+
+**Example**
 
 ```yaml
 - type: picture-elements

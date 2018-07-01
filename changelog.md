@@ -39,6 +39,7 @@
 
 ### Cards
 - Bug introduced in `glance` card - titles now overlap
+- New card: `iframe`
 
 ## Changes in 0.72
 - Initial release of the Lovelace UI

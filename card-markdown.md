@@ -1,9 +1,18 @@
-### [Markdown](https://developers.home-assistant.io/docs/en/lovelace_card_types.html#markdown)
+### Markdown
 Markdown card is used to render [markdown](http://commonmark.org/help/)
 
 ![markdown](https://user-images.githubusercontent.com/7738048/41775900-7269b8c8-762e-11e8-90f9-5634783d283e.png)
 
-Example:
+**Options**
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `markdown`
+| content | string | **Required** | Content to render as [markdown](http://commonmark.org/help/).
+| title | string | Optional | Card title
+
+**Example**
+
 ```yaml
 - type: markdown
   content: >

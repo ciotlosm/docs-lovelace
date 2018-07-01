@@ -13,26 +13,29 @@ You can customize tap action and even icon color.
 - type: picture-elements
   image: https://static.vecteezy.com/system/resources/previews/000/102/594/large_2x/free-floor-plan-vector.jpg
   elements:
-    - type: state-badge
+    - type: state-icon
       tap_action: toggle
       entity: light.ceiling_lights
       style:
         top: 47%
         left: 42%
-    - type: state-badge
+    - type: state-icon
       tap_action: toggle
       entity: light.kitchen_lights
       style:
         top: 30%
         left: 15%
+    - type: state-label
+      entity: sensor.outside_temperature
+      style:
+        top: 82%
+        left: 79%
     - type: service-button
       title: Turn lights off
       style:
         top: 95%
-        left: 80%
-      service:
-        domain: light
-        service: turn_off
-        data:
+        left: 60%
+      service: light.turn_off
+      service_data:
           entity_id: group.all_lights
 ```

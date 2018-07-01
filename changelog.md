@@ -34,3 +34,11 @@
 - `entity-filter` removed `card_config` and made `card` property an object
 - `entities` toggle button in header can now be hidden using `show_header_toggle: false`
 - Fix title in `glance` to avoid overlapping
+
+## Changes in 0.72.1
+
+### Cards
+- Bug introduced in `glance` card - titles now overlap
+
+## Changes in 0.72
+- Initial release of the Lovelace UI

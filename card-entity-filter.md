@@ -1,10 +1,12 @@
-### [Entity filter](https://developers.home-assistant.io/docs/en/lovelace_card_types.html#entity-filter)
+### Entity filter
 
 Entity filter is a magical type of card. Because it's dynamic if you're smart about it, you can have one card that adapts and that you don't need to touch when adding new entities & sensors to your setup. 
 
 This type of card can also be used together with rest of cards that allow multiple entities, allowing you to use 'glance' or 'picture-glance'. By default it uses 'entities' card model.
 
 ![entity-filter-entity](https://user-images.githubusercontent.com/7738048/41776696-686e976e-7631-11e8-95bb-bb69a9494c7d.png)
+
+**Options**
 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------

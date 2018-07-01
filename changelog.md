@@ -1,4 +1,5 @@
 ## Changes in 0.73.0b1
+- New feature to allow Lovelace to be default for `/`
 - [cards] `column` renamed to `vertical-stack`
 - [cards] `row` renamed to `horizontal-stack`
 - [cards] `picture-elements` new `state-badge` using `ha-state-label-badge`
@@ -6,6 +7,9 @@
 - [cards] `picture-elements` renamed `state-text` to `state-label`
 - [cards] `picture-elements` moved/renamed `service.data` to `service_data`
 - [cards] `picture-elements` combined `service.domain` and `service.server` into `service`
+- [cards] `entities` allow custom title just like `glance`
+- [cards] `entity-filter` allow auto-hide if empty using `show_empty: false`
+- [cards] `horizontal-stack`/`vertical-stack` fix card size calculation
 
 ## Changes in 0.73.0b0
 - [views] `name` renamed `title` to match cards setup

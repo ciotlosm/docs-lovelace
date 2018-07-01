@@ -22,7 +22,7 @@ Filter options:
 | state | string | Optional | Match entities that match state. Note, in YAML, make sure you wrap it in quotes to make sure it is parsed as a string.
 | entity_id | string | Optional | Filter entities by id, supports wildcards (`*living_room*`)
 
-Examples:
+**Examples**
 
 Show only active switches or lights in the house
 ```yaml

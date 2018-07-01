@@ -6,6 +6,20 @@ This type of card can also be used together with rest of cards that allow multip
 
 ![entity-filter-entity](https://user-images.githubusercontent.com/7738048/41776696-686e976e-7631-11e8-95bb-bb69a9494c7d.png)
 
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| type | string | **Required** | `entity-filter`
+| filter | list | **Required** | See filter description
+| card | object | `{'type': 'entities'}` | Extra options to pass down to the card rendering the result.
+
+Filter options:
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| domain | string | Optional | Filter all entities that match the domain
+| state | string | Optional | Match entities that match state. Note, in YAML, make sure you wrap it in quotes to make sure it is parsed as a string.
+| entity_id | string | Optional | Filter entities by id, supports wildcards (`*living_room*`)
+
 Examples:
 
 Show only active switches or lights in the house

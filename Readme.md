@@ -27,8 +27,6 @@ The Lovelace UI is:
 
 > This is the very very early version aimed at gathering feedback. Discussion and suggestions are welcome in the [ui-schema repository](https://github.com/home-assistant/ui-schema/issues).
 
-> To access **lovelace** please go to `dev-info` and click the link **Try out the new Lovelace UI (experimental)** 
-
 ## Cards
 Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
 

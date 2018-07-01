@@ -33,4 +33,4 @@
 - `glance` fix for title
 - `glance` allow custom title inside glance
 - `entity-filter` removed `card_config` and made `card` property an object
-- `entities` header can now be hidden using `show_header_toggle: false`
+- `entities` toggle button in header can now be hidden using `show_header_toggle: false`

@@ -1,5 +1,4 @@
 ## Changes in 0.73.0b1
-- New feature to allow Lovelace to be default for `/`
 - [cards] `column` renamed to `vertical-stack`
 - [cards] `row` renamed to `horizontal-stack`
 - [cards] `picture-elements` new `state-badge` using `ha-state-label-badge`
@@ -12,6 +11,7 @@
 - [cards] `horizontal-stack`/`vertical-stack` fix card size calculation
 
 ## Changes in 0.73.0b0
+- New feature to allow Lovelace to be default for `/`
 - [views] `name` renamed `title` to match cards setup
 - [views] `tab_icon` renamed `icon` for simplicity
 - [views] Now views have deep-links: `/lovelace/3` will link to the tab with id `3`

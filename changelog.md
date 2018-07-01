@@ -13,8 +13,8 @@
 - `picture-elements` renamed `state-text` to `state-label`
 - `picture-elements` moved/renamed `service.data` to `service_data`
 - `picture-elements` combined `service.domain` and `service.server` into `service`
-- `entities` allow custom title just like `glance`
-- `entity-filter` allow auto-hide if empty using `show_empty: false`
+- :mega: `entities` allow custom title just like `glance`
+- :mega: `entity-filter` allow auto-hide if empty using `show_empty: false`
 - :wrench: Fix card size calculation `horizontal-stack`/`vertical-stack` 
 
 ## Changes in 0.73.0b0
@@ -29,10 +29,10 @@
 - :mega: New card: `picture-elements`
 - :mega: New card: `column`
 - :mega: New card: `row`
+- :mega: `glance` allow custom title for entities - rename your entity only in this card
+- :mega: `entities` toggle button in header can now be hidden using `show_header_toggle: false`
 - `entity-picture` renamed `picture-entity` to be consistent with `picture-glance`
-- `glance` allow custom title for entities - rename your entity only in this card
 - `entity-filter` removed `card_config` and made `card` property an object
-- `entities` toggle button in header can now be hidden using `show_header_toggle: false`
 - :wrench: Fix use of groups in `picture-entity`
 - :wrench: Fix title in `glance` to avoid overlapping
 

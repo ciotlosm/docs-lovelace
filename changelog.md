@@ -1,28 +1,36 @@
 ## [not released] Changes in 0.73.0b2
+
+### Cards
 - [card] fix wrapping and padding for `service-button` in `picture-elements` 
 
 ## Changes in 0.73.0b1
-- [cards] `column` renamed to `vertical-stack`
-- [cards] `row` renamed to `horizontal-stack`
-- [cards] `picture-elements` new `state-badge` using `ha-state-label-badge`
-- [cards] `picture-elements` renamed `state-badge` to `state-icon`
-- [cards] `picture-elements` renamed `state-text` to `state-label`
-- [cards] `picture-elements` moved/renamed `service.data` to `service_data`
-- [cards] `picture-elements` combined `service.domain` and `service.server` into `service`
-- [cards] `entities` allow custom title just like `glance`
-- [cards] `entity-filter` allow auto-hide if empty using `show_empty: false`
-- [cards] `horizontal-stack`/`vertical-stack` fix card size calculation
+
+### Cards
+- `column` renamed to `vertical-stack`
+- `row` renamed to `horizontal-stack`
+- `picture-elements` new `state-badge` using `ha-state-label-badge`
+- `picture-elements` renamed `state-badge` to `state-icon`
+- `picture-elements` renamed `state-text` to `state-label`
+- `picture-elements` moved/renamed `service.data` to `service_data`
+- `picture-elements` combined `service.domain` and `service.server` into `service`
+- `entities` allow custom title just like `glance`
+- `entity-filter` allow auto-hide if empty using `show_empty: false`
+- `horizontal-stack`/`vertical-stack` fix card size calculation
 
 ## Changes in 0.73.0b0
 - New feature to allow Lovelace to be default for `/`
-- [views] `name` renamed `title` to match cards setup
-- [views] `tab_icon` renamed `icon` for simplicity
-- [views] Now views have deep-links: `/lovelace/3` will link to the tab with id `3`
-- [cards] New card: `picture-elements`
-- [cards] New card: `column`
-- [cards] New card: `row`
-- [cards] `entity-picture` renamed `picture-entity` to be consistent with `picture-glance`
-- [cards] `glance` fix for title
-- [cards] `glance` allow custom title inside glance
-- [cards] `entity-filter` removed `card_config` and made `card` property an object
-- [cards] Introduced new option support: `show_header_toggle` that supports `true`/`false`
+
+### Views
+- `name` renamed `title` to match cards setup
+- `tab_icon` renamed `icon` for simplicity
+- Now views have deep-links: `/lovelace/3` will link to the tab with id `3`
+
+### Cards
+- New card: `picture-elements`
+- New card: `column`
+- New card: `row`
+- `entity-picture` renamed `picture-entity` to be consistent with `picture-glance`
+- `glance` fix for title
+- `glance` allow custom title inside glance
+- `entity-filter` removed `card_config` and made `card` property an object
+- `entities` header can now be hidden using `show_header_toggle: false`

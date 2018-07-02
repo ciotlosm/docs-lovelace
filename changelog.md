@@ -1,3 +1,8 @@
+## Changes in 0.73.0 (Coming soon)
+
+### Cards
+- `picture-entity` renamed `title` to `name`
+
 ## Changes in 0.73.0b3
 
 ### Views

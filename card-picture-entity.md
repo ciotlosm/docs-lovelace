@@ -17,7 +17,7 @@ You can also use `camera` domain entities to use that as image (will replace `ca
 | camera_image | string | Optional | camera domain entity_id 'camera.demo_camera'
 | image | string | Optional| URL of an image.
 | state_image | object | Optional | See `state_image` object structure.
-| title | string | Optional | Card title
+| name | string | Optional | Custom name for entity 
 
 `state_image` object structure
 

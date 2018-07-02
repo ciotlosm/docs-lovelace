@@ -8,6 +8,9 @@
 - :mega: `picture-elements` now supports `navigation` type
 - `entities` and `glance` custom titles now use `name` not `title`
 - :wrench: Fix wrapping and padding for `service-button` in `picture-elements`
+- `entity-filter` now uses `entities` as a static list to filter state against
+- `entity-filter` uses `state_filter` array instead of `filter` object
+- :bangbang: `entity-filter` no longer able to show all entities or a full domain
 
 ## Changes in 0.73.0b1
 

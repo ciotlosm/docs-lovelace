@@ -142,21 +142,5 @@ frontend:
 
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
 
-## Templating
-Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.
-
-## Debugging
-As entities no longer show up automatically on your interface, it is recommended that you get a View to show everything you have available to configure inside cards on your interface and other views. For this, the entity-filter card is the best to use. You can find below a configuration that does this for you. 
-
-```yaml
-- tab_icon: mdi:settings
-  name: Debugging
-  cards:
-    - type: entity-filter
-      filter: [{}]
-      card:
-        title: All entities
-```
-
 ## Example
 To get you started you can use the `demo` platfrom in your `configuration.yaml`. There are many examples found [here](https://github.com/home-assistant/ui-schema/blob/master/dev_repo_test_config)

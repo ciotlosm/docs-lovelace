@@ -1,6 +1,6 @@
 ### Entity filter
 
-Entity filter is a magical type of card. Because it's dynamic if you're smart about it, you can have one card that adapts and that you don't need to touch when adding new entities & sensors to your setup. 
+This card allows you to define a list of entities that you want to track only when in a certain state. Very useful for showing lights that you forgot to turn off or show a list of people only when they're at home. 
 
 This type of card can also be used together with rest of cards that allow multiple entities, allowing you to use [glance](card-glance.md) or [picture-glance](card-picture-glance.md). By default it uses [entities](card-entities.md) card model.
 
@@ -11,48 +11,35 @@ This type of card can also be used together with rest of cards that allow multip
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `entity-filter`
-| filter | list | **Required** | See filter description
+| entities | array | **Required** | Array of entity_ids
+| state_filter | array | **Required** | Array of strings representing states
 | card | object | `entities` type | Extra options to pass down to the card rendering the result.
 | show_empty | boolean | true | Allows hiding of card when no entities returned by filter.
-
-Filter options:
-
-| Name | Type | Default | Description
-| ---- | ---- | ------- | -----------
-| domain | string | Optional | Filter all entities that match the domain
-| state | string | Optional | Match entities that match state. Note, in YAML, make sure you wrap it in quotes to make sure it is parsed as a string.
-| entity_id | string | Optional | Filter entities by id, supports wildcards (`*living_room*`)
 
 **Examples**
 
 Show only active switches or lights in the house
 ```yaml
 - type: entity-filter
-  filter:
-    - domain: light
-      state: 'on'
-    - domain: switch
-      state: 'on'
+  entities:
+    - light.bed_light
+    - light.kitchen_lights
+    - light.ceiling_lights
+  state_filter:
+    - 'on'
   card:
     title: Eating power
-```
-
-Automatically group all kitchen entities:
-```yaml
-- type: entity-filter
-  filter:
-    - entity_id: '*kitchen*'
-  card:
-    title: Kitchen
-    show_header_toggle: false
 ```
 
 Show only people that are at home using [glance](card-glance.md):
 ```yaml
 - type: entity-filter
-  filter:
-    - domain: device_tracker
-      state: 'home'
+  entities:
+    - device_tracker.demo_paulus
+    - device_tracker.demo_anne_therese
+    - device_tracker.demo_home_boy
+  state_filter:
+    - 'home'
   card: 
     type: glance
     title: People at home
@@ -60,8 +47,7 @@ Show only people that are at home using [glance](card-glance.md):
 
 ![entity-filter](https://user-images.githubusercontent.com/7738048/41775896-71d42556-762e-11e8-8b02-d75c7824300a.png)
 
-
 ### Feedback
-- Support exceptions (blacklist not just whitelist). Example: show this pattern but except this pattern [#41](https://github.com/home-assistant/ui-schema/issues/41)
-- Support ordering [#47](https://github.com/home-assistant/ui-schema/issues/47)
+- ~Support exceptions (blacklist not just whitelist). Example: show this pattern but except this pattern [#41](https://github.com/home-assistant/ui-schema/issues/41)~ : Will not be supported
+- ~Support ordering [#47](https://github.com/home-assistant/ui-schema/issues/47)~ : Will not be supported
 - ~Option to hide when empty [#48](https://github.com/home-assistant/ui-schema/issues/48)~

@@ -22,7 +22,6 @@ You can use different image combination to get a more realistic view for images 
 | ---- | ---- | ------- | -----------
 | on | string | Optional | URL of an image used for on state.
 | off | string | Optional | URL of an image used for off state.
-| default | string | Optional | URL of an image used as default.
 
 **Examples**
 

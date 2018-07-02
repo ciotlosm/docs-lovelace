@@ -22,4 +22,4 @@ Basic example:
   navigate_path: /lovelace/arsaboo
 ```
 
-> Check the view setup on how to setup custom ids
+> Check the [view](Readme.md#views) setup on how to setup custom ids

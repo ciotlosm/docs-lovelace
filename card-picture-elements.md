@@ -21,6 +21,12 @@ Element types:
 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
+| type | string | **Required** | `navigation`
+| path | string | **Required** | Path of URL to navigate to
+| icon | string | optional | Icon
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
 | type | string | **Required** | `state-badge`
 | entity | string | **Required** | Entity id
 | style | object | **Required** | See "Style options"

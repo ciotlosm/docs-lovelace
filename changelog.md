@@ -4,10 +4,10 @@
 - :mega: Added panel mode for a view to use 1st card to fill whole screen
 
 ### Cards
-- :wrench: Fix wrapping and padding for `service-button` in `picture-elements`
-- :mega: `picture-elements` now supports `navigation` type
 - :mega: New card: `picture` for navigation
+- :mega: `picture-elements` now supports `navigation` type
 - `entities` and `glance` custom titles now use `name` not `title`
+- :wrench: Fix wrapping and padding for `service-button` in `picture-elements`
 
 ## Changes in 0.73.0b1
 

@@ -12,9 +12,17 @@ You can use different image combination to get a more realistic view for images 
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `picture-entity`
 | entity | string | **Required** | Entity id to control via picture.
-| image | string | optional| URL of an image.
-| state_image | object | optional| `{'on': '/on.png', ... 'default': '/default.png'}`
+| image | string | Optional| URL of an image.
+| state_image | object | Optional| See state_image object structure.
 | title | string | Optional | Card title
+
+`sate_image` object structure
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| on | string | Optional | URL of an image used for on state.
+| off | string | Optional | URL of an image used for off state.
+| default | string | Optional | URL of an image used as default.
 
 **Examples**
 

@@ -9,8 +9,15 @@ Glance cards are a very compact. Very useful to group together multiple sensors 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `glance`
-| entities | list | **Required** | Entity id's or `{'entity': ''entity_id', 'name': 'name'}`
+| entities | list | **Required** | Entity id's or an `entity` object (see structure below).
 | title | string | Optional | Card title
+
+`entity` object type
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| entity | string | **Required** | An entity_id. Example: 'device_tracker.demo_paulus'.
+| name | string | **Required** | A new name for the entity_id
 
 **Examples**
 

@@ -23,7 +23,7 @@ Element types:
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `navigation`
 | path | string | **Required** | Path of URL to navigate to
-| icon | string | optional | Icon
+| icon | string | Optional | Icon
 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
@@ -48,10 +48,15 @@ Element types:
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `service-button`
 | service | string | **Required** | `light.turn_on`
-| service_data | object | optional | `{'entity_id': 'light.floor'}`
+| service_data | object | Optional | See `service_data` object structure.
 | style | object | **Required** | See "Style options"
-| title | string | optional | Button label
+| title | string | Optional | Button label
 
+`service_data` object structure
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| entity_id | string | **Required** | 'light.floor'
 
 Style options (CSS):
 

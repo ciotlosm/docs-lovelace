@@ -12,7 +12,8 @@ This type of card can also be used together with rest of cards that allow multip
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `entity-filter`
 | filter | list | **Required** | See filter description
-| card | object | `{'type': 'entities'}` | Extra options to pass down to the card rendering the result.
+| card | object | `entities` type | Extra options to pass down to the card rendering the result.
+| show_empty | boolean | true | Allows hiding of card when no entities returned by filter.
 
 Filter options:
 

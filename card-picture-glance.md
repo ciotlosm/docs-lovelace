@@ -22,7 +22,7 @@ You can also use `camera` domain entities to use that as image (will replace `ca
 | entity | list | Optional | An entity to use for state_image state
 | title | string | Optional | Card title
 
-`sate_image` object structure
+`state_image` object structure
 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------

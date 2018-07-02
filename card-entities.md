@@ -6,7 +6,7 @@ Entities will be the most common type of card that will also be the most familia
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `entities`
-| entities | list | **Required** | Entity id's
+| entities | list | **Required** | Entity id's or `{'entity': ''entity_id', 'name': 'name'}`
 | title | string | Optional | Card title
 | show_header_toggle | boolean | true | Button to turn on/off all entities
 

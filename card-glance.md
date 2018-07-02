@@ -9,7 +9,7 @@ Glance cards are a very compact. Very useful to group together multiple sensors 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `glance`
-| entities | list | **Required** | Entity id's or `{'entity': ''entity_id', 'title': 'title'}`
+| entities | list | **Required** | Entity id's or `{'entity': ''entity_id', 'name': 'name'}`
 | title | string | Optional | Card title
 
 **Examples**
@@ -30,13 +30,13 @@ Basic example
 
 ![glance-with-title](https://user-images.githubusercontent.com/7738048/42103958-89dadac8-7bd3-11e8-95a6-7dfe6a0ebd6b.png)
 
-Example with custom title
+Example with custom name
 ```yaml
 - type: glance
-  title: Better titles
+  title: Better names
   entities:
     - entity: binary_sensor.movement_backyard
-      title: Movement?
+      name: Movement?
     - light.bed_light
     - binary_sensor.basement_floor_wet
     - sensor.outside_temperature
@@ -47,7 +47,7 @@ Example with custom title
 
 ### Known issues
 - ~Aspect ratio for images [#29](https://github.com/home-assistant/ui-schema/issues/29)~
-- ~Title bug [too short in 0.72.0 and overlapping in 0.72.1] [#45](https://github.com/home-assistant/ui-schema/issues/45)~
+- ~Name overlapping bug [#45](https://github.com/home-assistant/ui-schema/issues/45)~
 
 ### Feedback
 - ~Support toggling of entities without opening more-info [#49](https://github.com/home-assistant/ui-schema/issues/49)~

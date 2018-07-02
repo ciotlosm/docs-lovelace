@@ -9,11 +9,11 @@
 - :mega: `picture-entity` now supports `camera_image`
 - :mega: `picture-glance` now supports `camera_image`
 - :mega: `picture-glance` now supports `state_image` and `entity` like `picture-entity`
+- :mega: `entity-filter` now supports custom name for entities like `glance` and `entities`
 - `entities` and `glance` custom titles now use `name` not `title`
-- :wrench: Fix wrapping and padding for `service-button` in `picture-elements`
 - `entity-filter` now uses `entities` as a static list to filter state against
 - `entity-filter` uses `state_filter` array instead of `filter` object
-- `entity-filter` now supports custom name for entities like `glance` and `entities`
+- :wrench: Fix wrapping and padding for `service-button` in `picture-elements`
 - :bangbang: `entity-filter` no longer allows to show all entities or a full domain
 
 ## Changes in 0.73.0b2

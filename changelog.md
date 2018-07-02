@@ -10,7 +10,7 @@
 - :wrench: Fix wrapping and padding for `service-button` in `picture-elements`
 - `entity-filter` now uses `entities` as a static list to filter state against
 - `entity-filter` uses `state_filter` array instead of `filter` object
-- :bangbang: `entity-filter` no longer able to show all entities or a full domain
+- :bangbang: `entity-filter` no longer allows to show all entities or a full domain
 
 ## Changes in 0.73.0b1
 

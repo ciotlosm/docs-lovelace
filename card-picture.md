@@ -7,12 +7,12 @@ A very simple card that allows you to set an image to use for navigation to vari
 **Options**
 
 | Name | Type | Default | Description
-| ---- | ---- | ------- | -----------
+| --- | --- | --- | ---
 | type | string | **Required** | `picture-entity`
 | image | string | **Required**| URL of an image.
 | navigate_path | string | Optional | Path of URL to navigate to
 | service | string | Optional | `light.toggle`
-| service_data | object | optional | `{'entity_id': 'light.floor'}`
+| service_data | object | optional | `'entity_id':<br> 'light.floor'`
 
 
 **Examples**

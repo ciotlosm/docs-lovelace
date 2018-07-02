@@ -1,6 +1,7 @@
-## Changes in 0.73.0 (Coming soon)
+## Changes in 0.73.0b4 (Coming soon)
 
 ### Cards
+- :mega: `picture-entity` allow hiding of infobar using `show_info: false`
 - `picture-entity` renamed `title` to `name`
 
 ## Changes in 0.73.0b3

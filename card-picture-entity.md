@@ -18,6 +18,7 @@ You can also use `camera` domain entities to use that as image (will replace `ca
 | image | string | Optional| URL of an image.
 | state_image | object | Optional | See `state_image` object structure.
 | name | string | Optional | Custom name for entity 
+| show_info | boolean | Optional | Set to false to hide infobar
 
 `state_image` object structure
 

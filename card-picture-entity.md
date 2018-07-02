@@ -4,7 +4,7 @@ A very useful card for entities that have on/off states. It allows you to genera
 
 You can use different image combination to get a more realistic view for images with lights. The image setup also allows enough flexibility to get your garage picture with the door opened and closed.
 
-You can also use `camera` domain entities to use that as image (will replace `camera-preview`).
+You can also use `camera` domain entities to use that as `camera_image` (will replace `camera-preview`).
 
 ![entity-picture](https://user-images.githubusercontent.com/7738048/41775897-71fca8a0-762e-11e8-9f14-71473b4db153.gif)
 

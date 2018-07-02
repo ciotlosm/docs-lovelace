@@ -129,16 +129,6 @@ Content of `lovelace.html`
 </script>
 ```
 
-Information on path for `lovelace.html` (Hass.io example):
-
-```bash
-core-ssh:/config/www# pwd
-/config/www
-
-core-ssh:/config/www# ls 
-lovelace.html
-```
-
 2. Tell Home Assistant to load this file by referencing it inside your `configuration.yaml`
 
 Example configuration:

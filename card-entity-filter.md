@@ -22,7 +22,8 @@ Show only active switches or lights in the house
 ```yaml
 - type: entity-filter
   entities:
-    - light.bed_light
+    - entity: light.bed_light
+      name: Bed
     - light.kitchen_lights
     - light.ceiling_lights
   state_filter:

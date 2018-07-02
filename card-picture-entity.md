@@ -4,6 +4,8 @@ A very useful card for entities that have on/off states. It allows you to genera
 
 You can use different image combination to get a more realistic view for images with lights. The image setup also allows enough flexibility to get your garage picture with the door opened and closed.
 
+You can also use `camera` domain entities to use that as image (will replace `camera-preview`).
+
 ![entity-picture](https://user-images.githubusercontent.com/7738048/41775897-71fca8a0-762e-11e8-9f14-71473b4db153.gif)
 
 **Options**
@@ -12,8 +14,9 @@ You can use different image combination to get a more realistic view for images 
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `picture-entity`
 | entity | string | **Required** | Entity id to control via picture.
+| camera_image | string | Optional | camera domain entity_id 'camera.demo_camera'
 | image | string | Optional| URL of an image.
-| state_image | object | Optional| See `state_image` object structure.
+| state_image | object | Optional | See `state_image` object structure.
 | title | string | Optional | Card title
 
 `sate_image` object structure

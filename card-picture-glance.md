@@ -1,6 +1,10 @@
 ### Picture glance
 
-Picture glance is an even more useful type of card that can display sensors, switches, lights and other entities grouped on top of a custom image. Use for this card are for easy recognition inside a large dashboard. What really sets this card apart is the ability to **control** entities directly from the card without the need to open the details of that entity.
+A very useful type of card that can display sensors, switches, lights and other entities grouped on top of a custom image. Use this card for easy visual recognition inside a large dashboard. 
+
+What really sets this card apart is the ability to **control** entities directly from the card without the need to open the details of that entity.
+
+You can also use `camera` domain entities to use that as image (will replace `camera-preview`). You can also use `state_image` just like in [picture-entity](card-picture-entity.md) together with an `entity` entry to change the image in a dynamic way.
 
 > Picture glance supports a display of maximum 10 items (thanks to @jackjohnsonuk)
 
@@ -13,7 +17,17 @@ Picture glance is an even more useful type of card that can display sensors, swi
 | type | string | **Required** | `picture-glance`
 | image | string | **Required** | URL of an image
 | entities | list | **Required** | Entity id's
+| camera_image | string | Optional | camera domain entity_id 'camera.demo_camera'
+| state_image | object | Optional| See `state_image` object structure.
+| entity | list | Optional | An entity to use for state_image state
 | title | string | Optional | Card title
+
+`sate_image` object structure
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| on | string | Optional | URL of an image used for on state.
+| off | string | Optional | URL of an image used for off state.
 
 **Examples**
 
@@ -31,8 +45,12 @@ Picture glance is an even more useful type of card that can display sensors, swi
 Picture glance used together with 'entity-filter'
 ```yaml
 - type: entity-filter
-  filter:
-    - domain: light
+  entities:
+    - light.bed_light
+    - light.kitchen_lights
+    - light.ceiling_lights
+  state_filter:
+    - 'on'
   card: picture-glance
   card_config:
     title: Lights

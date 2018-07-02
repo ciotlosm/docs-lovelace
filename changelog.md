@@ -13,6 +13,9 @@
 - `entity-filter` now supports custom name for entities like `glance` and `entities`
 - :bangbang: `entity-filter` no longer allows to show all entities or a full domain
 
+## Changes in 0.73.0b3
+- :zap: Went by too fast :zap:
+
 ## Changes in 0.73.0b1
 
 ### Cards

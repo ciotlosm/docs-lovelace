@@ -37,7 +37,6 @@ Picture glance used together with 'entity-filter'
   card_config:
     title: Lights
     image: https://images.pexels.com/photos/356048/pexels-photo-356048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=295&w=490
-# credits: @arsaboo
 ```
 
 ### Known issues

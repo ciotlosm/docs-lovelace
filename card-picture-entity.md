@@ -13,7 +13,7 @@ You can use different image combination to get a more realistic view for images 
 | type | string | **Required** | `picture-entity`
 | entity | string | **Required** | Entity id to control via picture.
 | image | string | Optional| URL of an image.
-| state_image | object | Optional| See state_image object structure.
+| state_image | object | Optional| See `state_image` object structure.
 | title | string | Optional | Card title
 
 `sate_image` object structure

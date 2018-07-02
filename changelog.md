@@ -4,7 +4,7 @@
 - :mega: Added panel mode for a view to use 1st card to fill whole screen
 
 ### Cards
-- :mega: New card: `picture` for navigation
+- :mega: New card: `picture` for triggering navigation and services
 - :mega: `picture-elements` now supports `navigation` type
 - :mega: `picture-entity` now supports `camera_image`
 - :mega: `picture-glance` now supports `camera_image`

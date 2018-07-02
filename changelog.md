@@ -6,6 +6,9 @@
 ### Cards
 - :mega: New card: `picture` for navigation
 - :mega: `picture-elements` now supports `navigation` type
+- :mega: `picture-entity` now supports `camera_image`
+- :mega: `picture-glance` now supports `camera_image`
+- :mega: `picture-glance` now supports `state_image` and `entity` like `picture-entity`
 - `entities` and `glance` custom titles now use `name` not `title`
 - :wrench: Fix wrapping and padding for `service-button` in `picture-elements`
 - `entity-filter` now uses `entities` as a static list to filter state against

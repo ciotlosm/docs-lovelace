@@ -19,6 +19,21 @@ Examples:
     - binary_sensor.movement_backyard
     - binary_sensor.basement_floor_wet
 ```
+
+Picture glance used together with 'camera_image'
+```yaml
+- type: picture-glance
+  image:
+  camera_image: camera.demo_camera
+  title: Living
+  entities:
+    - switch.decorative_lights
+    - light.ceiling_lights
+    - lock.front_door
+    - binary_sensor.movement_backyard
+    - binary_sensor.basement_floor_wet
+```
+
 Picture glance used together with 'entity-filter'
 ```yaml
 - type: entity-filter
@@ -37,5 +52,5 @@ Picture glance used together with 'entity-filter'
 ### Feedback
 - Support multiple images based on conditions around entities in the card
 - Support coordinates for positioning [#52](https://github.com/home-assistant/ui-schema/issues/52)
-- Support image source from `camera-preview` or from `media-control` [#39](https://github.com/home-assistant/ui-schema/issues/39)
+- Support image source from ~~`camera-preview` or from~~ `media-control` [#39](https://github.com/home-assistant/ui-schema/issues/39) _- `camera-preview` is now implemented by the `camera-image` string_
 - Allow local card entity customisation [#36](https://github.com/home-assistant/ui-schema/issues/36)

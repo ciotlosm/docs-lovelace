@@ -68,6 +68,25 @@ views:
   title: Debugging
 ```
 
+Panel with a full screen card:
+```yaml
+views:
+- icon: mdi:settings
+  id: debug
+  title: Floorplan
+  panel: true
+    cards:
+      - type: picture-elements
+        image: /local/floorplans/main.jpg
+        elements:
+          - type: state-icon
+            tap_action: toggle
+            entity: light.ceiling_lights
+            style:
+              top: 47%
+              left: 42%
+```
+
 > The view above will be accessible using `/lovelace/debug`
 
 ### Known issues

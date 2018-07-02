@@ -28,6 +28,9 @@ You can also use `camera` domain entities to use that as image (will replace `ca
 | ---- | ---- | ------- | -----------
 | on | string | Optional | URL of an image used for on state.
 | off | string | Optional | URL of an image used for off state.
+| home | string | Optional | URL of an image used for home state.
+| not_home | string | Optional | URL of an image used for not_home state.
+| ... | string | Optional | Any state that is supported by the entity works
 
 **Examples**
 

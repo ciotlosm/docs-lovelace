@@ -1,4 +1,4 @@
-## Changes in 0.73.0b2 (Soon :alarm_clock:)
+## Changes in 0.73.0b3
 
 ### Views
 - :mega: Added panel mode for a view to use 1st card to fill whole screen

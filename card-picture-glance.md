@@ -19,6 +19,21 @@ Examples:
     - binary_sensor.movement_backyard
     - binary_sensor.basement_floor_wet
 ```
+
+Picture glance used together with 'camera_image'
+```yaml
+- type: picture-glance
+  image:
+  camera_image: camera.demo_camera
+  title: Living
+  entities:
+    - switch.decorative_lights
+    - light.ceiling_lights
+    - lock.front_door
+    - binary_sensor.movement_backyard
+    - binary_sensor.basement_floor_wet
+```
+
 Picture glance used together with 'entity-filter'
 ```yaml
 - type: entity-filter

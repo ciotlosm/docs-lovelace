@@ -10,7 +10,7 @@ A very simple card that allows you to set an image to use for navigation to vari
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `picture-entity`
 | image | string | **Required**| URL of an image.
-| navigate_path | string | Optional | Path of URL to navigate to
+| navigation_path | string | Optional | Path of URL to navigate to
 | service | string | Optional | `light.toggle`
 | service_data | object | optional | See service_data object
 
@@ -28,7 +28,7 @@ Basic navigation example:
 ```yaml
 - type: picture
   image: /local/exit.jpg
-  navigate_path: /lovelace/arsaboo
+  navigation_path: /lovelace/arsaboo
 ```
 
 > Check the [view](Readme.md#views) setup on how to setup custom ids

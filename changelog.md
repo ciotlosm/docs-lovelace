@@ -6,6 +6,7 @@
 ### Cards
 - :wrench: Fix wrapping and padding for `service-button` in `picture-elements`
 - :mega: `picture-elements` now supports `navigation` type
+- :mega: New card: `picture` for navigation
 - `entities` and `glance` custom titles now use `name` not `title`
 
 ## Changes in 0.73.0b1

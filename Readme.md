@@ -38,6 +38,7 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [iframe](card-iframe.md)
 - [markdown](card-markdown.md)
 - [media-control](card-media-control.md)
+- [picture](card-picture.md)
 - [picture-elements](card-picture-elements.md)
 - [picture-entity](card-picture-entity.md)
 - [picture-glance](card-picture-glance.md)

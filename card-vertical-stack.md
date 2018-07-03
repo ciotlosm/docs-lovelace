@@ -16,8 +16,7 @@ Basic example
 - type: vertical-stack
   cards:
     - type: picture-entity
-      entity: Demo Camera
-      camera_image: camera.demo_camera
+      entity: camera.demo_camera
       show_info: false
     - type: entities
       entities:

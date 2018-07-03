@@ -1,3 +1,6 @@
+## Changes in 0.73.0b5
+- :checkered_flag: Only minor fixes in this release
+
 ## Changes in 0.73.0b4
 
 ### Cards

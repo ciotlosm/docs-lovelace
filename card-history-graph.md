@@ -9,7 +9,7 @@ History graph is a basic card, allowing you to display [History Graph](https://w
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `history-graph`
-| entities | string | **Required** | List of entities to graph.
+| entities | list | **Required** | List of entities to graph.
 | hours_to_show | integer | 24 | Hours to show
 | refresh_interval | integer | 0 | Refresh interval in seconds
 | title | string | Optional | `My Graphs`

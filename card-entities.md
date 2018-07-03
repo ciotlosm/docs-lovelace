@@ -22,13 +22,13 @@ Entities will be the most common type of card that will also be the most familia
 ```yaml
 - type: entities
   title: Entities card sample
+  show_header_toggle: true
   entities:
     - alarm_control_panel.alarm
     - device_tracker.demo_paulus
     - switch.decorative_lights
     - group.all_lights
     - group.all_locks
-    show_header_toggle: true
 ```
 
 ### Feedback

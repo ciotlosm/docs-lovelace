@@ -5,6 +5,7 @@
 - :mega: `picture-entity` now supports `tap_action` parameter allowing you to switch from `on`/`off` to `more-info-dialog`
 - :mega: `picture-glance` now supports `navigation_path`
 - `picture-entity` renamed `title` to `name`
+- `picture-elements` renamed `path` to `navigation_path`
 - :bangbang: `camera-preview` card removed, features added to `picture-entity` and `picture-glance`
 
 ## Changes in 0.73.0b3

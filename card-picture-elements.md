@@ -22,7 +22,7 @@ Element types:
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `navigation`
-| path | string | **Required** | Path of URL to navigate to
+| navigation_path | string | **Required** | navigation_path of URL to navigate to
 | icon | string | Optional | Icon
 
 | Name | Type | Default | Description

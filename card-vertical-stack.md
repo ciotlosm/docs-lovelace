@@ -15,37 +15,32 @@ Basic example
 ```yaml
 - type: vertical-stack
   cards:
-    - type: media-control
-      entity: media_player.lounge_room
-    - type: entities
-      title: Motion Front Door
-      entities:
-        - binary_sensor.motion_front_door
-    - type: media-control
-      entity: media_player.lounge_room
-    - type: entities
-      title: Motion Kitchen
-      entities:
-        - binary_sensor.motion_kitchen
+      - type: picture-entity
+        entity: Demo Camera
+        camera_image: camera.demo_camera
+        show_info: false
+      - type: entities
+        entities:
+          - binary_sensor.movement_backyard
 ```
 
-![vertical-stack](https://user-images.githubusercontent.com/32000001/42162436-9c3a8658-7df6-11e8-80ed-3baefad1bcda.jpg)
+![vertical stack](https://user-images.githubusercontent.com/32000001/42230976-341c8a02-7ee2-11e8-925f-6770b86166ab.PNG)
 
 Example using both a Vertical and Horizontal Stack Card
 ```yaml
 - type: vertical-stack
   cards:
-    - type: picture-entity
-      image: https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=295&w=490
-      entity: group.bedroom_lights
-    - type: horizontal-stack
-      cards:
-        - type: picture-entity
-          image: https://i.imgur.com/aOZM05k.jpg
-          entity: light.jack_bedside_light
-        - type: picture-entity
-          image: https://i.imgur.com/rD65Htq.jpg
-          entity: light.lara_bedside_light
+      - type: picture-entity
+        entity: group.all_lights
+        image:  https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      - type: horizontal-stack
+        cards:
+            - type: picture-entity
+              image: https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=240&w=495
+              entity: light.ceiling_lights
+            - type: picture-entity
+              image: https://images.pexels.com/photos/545012/pexels-photo-545012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=240&w=495
+              entity: light.bed_light
 ```
-![vertical stack 2](https://user-images.githubusercontent.com/32000001/42166447-f6597e9e-7e02-11e8-9446-c485d4269fe3.PNG)
+![vertical stack 2](https://user-images.githubusercontent.com/32000001/42231285-116cd8e4-7ee3-11e8-8ae8-aa4cdee606d2.PNG)
 

@@ -152,4 +152,8 @@ TBC
 ```
 
 ## Example
-To get you started you can use the `demo` platfrom in your `configuration.yaml`. There are many examples found [here](https://github.com/home-assistant/ui-schema/blob/master/dev_repo_test_config)
+To get you started you can use the `demo` platfrom in your `configuration.yaml` and experiment with the various examples inside card docs.
+
+Other examples:
+- [ui-schema](https://github.com/home-assistant/ui-schema/blob/master/dev_repo_test_config) repo used by devs
+- [arsaboo](https://github.com/arsaboo/homeassistant-config/blob/master/ui-lovelace.yaml) own setup

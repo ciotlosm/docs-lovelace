@@ -3,6 +3,7 @@
 ### Cards
 - :mega: `picture-entity` allow hiding of infobar using `show_info: false`
 - :mega: `picture-entity` now supports `tap_action` parameter allowing you to switch from `on`/`off` to `more-info-dialog`
+- :mega: `picture-glance` now supports `navigation_path`
 - `picture-entity` renamed `title` to `name`
 - :bangbang: `camera-preview` card removed, features added to `picture-entity` and `picture-glance`
 

@@ -1,6 +1,6 @@
 ### Picture glance
 
-A very useful type of card that can display sensors, switches, lights and other entities grouped on top of a custom image. Use this card for easy visual recognition inside a large dashboard.
+A very useful type of card that can display sensors, switches, lights and other entities grouped on top of a custom image. Use this card for easy visual recognition inside a large dashboard. You also can add `navigation_path` to take the user to a specific view and use these cards in an overview dashboard.
 
 What really sets this card apart is the ability to **control** entities directly from the card without the need to open the details of that entity.
 
@@ -17,6 +17,7 @@ You can also use `camera` domain entities to use that as image. You can also use
 | type | string | **Required** | `picture-glance`
 | image | string | **Required** | URL of an image
 | entities | list | **Required** | Entity id's
+| navigation_path | string | Optional | Path of URL to use in navigation
 | camera_image | string | Optional | camera domain entity_id 'camera.demo_camera'
 | state_image | object | Optional| See `state_image` object structure.
 | entity | list | Optional | An entity to use for state_image state

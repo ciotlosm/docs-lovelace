@@ -97,6 +97,8 @@ views:
 
 Thare are two migration scripts:
 
+> The scripts might not be up to date with 0.73.0 on release day. Please be patient.
+
 - Thanks to [@OttoWinter](https://github.com/OttoWinter) for the [migration script](https://gist.github.com/OttoWinter/730383148041824bc47786ea292572f8)
 - Thanks to [@dale3h](https://github.com/dale3h) for the [migration script that works also for packages](https://github.com/dale3h/python-lovelace)
 

@@ -19,7 +19,7 @@ You can also use `camera` domain entities to use that as `camera_image`.
 | state_image | object | Optional | See `state_image` object structure.
 | name | string | Optional | Custom name for entity
 | show_info | boolean | Optional | Set to false to hide infobar
-| tap_action | string | dialog | Set to toggle for turn on/off
+| tap_action | string | dialog | Set to `toggle` for turning entity on/off without opening a dialog
 
 `state_image` object structure
 

@@ -81,5 +81,5 @@ Picture glance used together with 'entity-filter'
 ### Feedback
 - Support multiple images based on conditions around entities in the card
 - Support coordinates for positioning [#52](https://github.com/home-assistant/ui-schema/issues/52)
-- Support image source from `camera-preview` or from `media-control` [#39](https://github.com/home-assistant/ui-schema/issues/39)
+- ~Support image source from `camera-preview` or from `media-control` [#39](https://github.com/home-assistant/ui-schema/issues/39)~
 - Allow local card entity customisation [#36](https://github.com/home-assistant/ui-schema/issues/36)

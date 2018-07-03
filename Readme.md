@@ -29,7 +29,6 @@ The Lovelace UI is:
 ## Cards
 Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
 
-- [camera-preview](card-camera-preview.md) (legacy - wil be replaced by `picture-entity` or `picture-glance`)
 - [entities](card-entities.md)
 - [entity-filter](card-entity-filter.md)
 - [glance](card-glance.md)

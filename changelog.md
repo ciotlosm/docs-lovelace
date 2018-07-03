@@ -15,7 +15,6 @@
 - :mega: New card: `picture` for triggering navigation and services
 - :mega: `picture-elements` now supports `navigation` type
 - :mega: `picture-entity` now supports `camera_image`
-- :mega: `picture-glance` now supports `camera_image`
 - :mega: `picture-glance` now supports `state_image` and `entity` like `picture-entity`
 - :mega: `entity-filter` now supports custom name for entities like `glance` and `entities`
 - `entities` and `glance` custom titles now use `name` not `title`

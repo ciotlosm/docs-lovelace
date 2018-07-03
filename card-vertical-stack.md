@@ -15,14 +15,14 @@ Basic example
 ```yaml
 - type: vertical-stack
   cards:
-    - type: camera-preview
-      entity: camera.front_door
+    - type: media-control
+      entity: media_player.lounge_room
     - type: entities
       title: Motion Front Door
       entities:
         - binary_sensor.motion_front_door
-    - type: camera-preview
-      entity: camera.kitchen
+    - type: media-control
+      entity: media_player.lounge_room
     - type: entities
       title: Motion Kitchen
       entities:

@@ -15,12 +15,12 @@ Basic example
 ```yaml
 - type: horizontal-stack
   cards:
-    - type: picture-entity
-      image: https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=295&w=490
-      entity: group.bedroom_lights
-    - type: picture-entity
-      image: https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=240&w=495
-      entity: group.living_room_lights
+      - type: picture-entity
+        image: https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=240&w=495
+        entity: light.ceiling_lights
+      - type: picture-entity
+        image: https://images.pexels.com/photos/545012/pexels-photo-545012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=240&w=495
+        entity: light.bed_light
 ```
 
-![horizontal stacking](https://user-images.githubusercontent.com/32000001/42163594-22d41fe0-7dfb-11e8-9dbf-a5b6efc09971.PNG)
+![horizontal stacking](https://user-images.githubusercontent.com/32000001/42229254-f02b8284-7edd-11e8-9ea6-f6689e8450f5.PNG)

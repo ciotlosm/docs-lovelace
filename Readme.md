@@ -93,11 +93,11 @@ views:
   id: debug
     cards:
       - type: "custom:monster-card"
-        title: My lovely card
-        card: glance
+        card: 
+          type: glance
+          title: My lovely card
         filter:
-          include:
-            - []
+          include: [{}]
           exclude:
             - domain: group
             - domain: zone

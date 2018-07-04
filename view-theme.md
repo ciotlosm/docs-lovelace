@@ -1,4 +1,4 @@
-### Using themes
+## Using themes
 
 You can also set a [theme](https://www.home-assistant.io/components/frontend/#themes) per view. 
 

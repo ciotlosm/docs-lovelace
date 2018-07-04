@@ -4,8 +4,6 @@
 
 Please follow [official docs](https://www.home-assistant.io/lovelace) and [developer docs](https://developers.home-assistant.io/docs/en/lovelace_index.html) for Lovelace UI. 
 
-<img align="right" height="250px" src="https://user-images.githubusercontent.com/7738048/41777567-6f8caa1a-7634-11e8-8ff4-a0589240d724.png">
-
 ## Cards
 Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
 

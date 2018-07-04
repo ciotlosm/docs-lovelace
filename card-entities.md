@@ -24,7 +24,8 @@ Entities will be the most common type of card that will also be the most familia
   title: Entities card sample
   show_header_toggle: true
   entities:
-    - alarm_control_panel.alarm
+    - entity: alarm_control_panel.alarm
+      name: Alarm Panel
     - device_tracker.demo_paulus
     - switch.decorative_lights
     - group.all_lights

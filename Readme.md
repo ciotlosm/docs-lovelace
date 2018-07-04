@@ -65,8 +65,6 @@ Click the `>> Set lovelace as default page page on this device <<` in `dev-info`
 
 This is a **hack** that will bind `/lovelace` to **Overview** option in the menu instead of `/states` using javascript. It will also set default dashboard for `/` using the same mechanic as **Using UI** method. 
 
-> Forcing your path to `/states` will still load the old dashboard page
-
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
 
 Content of `lovelace.html`
@@ -92,9 +90,7 @@ frontend:
 ```
 
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
-
-## Templating
-Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.
+4. [Optional] To view the old dashboard just navigate to `/states`
 
 ## Debugging
 As entities no longer show up automatically on your interface, it is recommended that you get a View to show everything you have available to configure inside cards on your interface and other views. There is now available a custom card (["monster card"](https://github.com/ciotlosm/custom-lovelace)) to achieve this.

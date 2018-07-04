@@ -28,6 +28,11 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 ## Views
 These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. The views have now deep links like `/lovelace/0`. You can also assign your own [custom ids](view-custom-id.md).
 
+- Using custom id in view, for [nicer navigation paths](view-custom-id.md) in URLs
+- Using [icons for tabs](view-icon.md) instead of text
+- Using a card to [fill a complete view](view-panel.md), just like panels
+- Using themes in views
+
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
 | title | string | Optional | Text title of the view
@@ -36,12 +41,6 @@ These are exactly as before, tab views with icons or text that help you manage l
 | panel | boolean | false | Marks view as a panel reusing the first card in list
 
 ![views](https://user-images.githubusercontent.com/7738048/41777460-0c432b6e-7634-11e8-8738-ca078a552d06.gif)
-
-**Various view types**
-- Using custom id in view, for [nicer navigation paths](view-custom-id.md) in URLs
-- Using [icons for tabs](view-icon.md) instead of text
-- Using a card to [fill a complete view](view-panel.md), just like panels
-- Using themes in views
 
 ## Migration scripts
 
@@ -57,11 +56,11 @@ Thare are two migration scripts:
 
 To make the Lovelace UI the default dashboard view use one of the methods below.
 
-### Using UI
+#### Using UI
 
 Click the `>> Set lovelace as default page page on this device <<` in `dev-info` panel to make Lovelace the default interface when visiting `/`. 
 
-### Overview binding
+#### Overview binding
 
 This is a **hack** that will bind `/lovelace` to **Overview** option in the menu instead of `/states` using javascript. It will also set default dashboard for `/` using the same mechanic as **Using UI** method. 
 
@@ -110,7 +109,7 @@ views:
             - domain: zone
 ```
 
-## Example
+## Examples
 To get you started you can use the `demo` platfrom in your `configuration.yaml` and experiment with the various examples inside card docs.
 
 Other examples:

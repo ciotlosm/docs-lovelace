@@ -1,4 +1,4 @@
-# Lovelace UI - [0.73.0b5](changelog.md)
+# Lovelace UI - [0.73.0b6](changelog.md)
 
 > Use [0.72.1 branch](https://github.com/ciotlosm/docs-lovelace/tree/0.72.1) for older docs
 
@@ -79,10 +79,13 @@ frontend:
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
 4. [Optional] To view the old dashboard just navigate to `/states`
 
-## Debugging & rebirth of `entity-filter` from 0.72
-As entities no longer show up automatically on your interface, it is recommended that you get a View to show everything you have available to configure inside cards on your interface and other views. There is now available a custom card (["monster card"](https://github.com/ciotlosm/custom-lovelace)) to achieve this.
+## Debugging
+To see what entities you left out, you can now use the menu `Unused entities`.
 
-> As of the time of writing (4th of July) this card is WIP
+![unused-entities](https://user-images.githubusercontent.com/7738048/42287697-0f1dfe00-7fc0-11e8-99ee-f5b312767879.png)
+
+## Rebirth of `entity-filter` from 0.72
+Due to popular request, a new custom card is now available (["monster card"](https://github.com/ciotlosm/custom-lovelace)) to achieve similar results as the previous `entity-filter`.
 
 ```yaml
 views:
@@ -90,7 +93,8 @@ views:
   id: debug
     cards:
       - type: "custom:monster-card"
-        title: Debugging
+        title: My lovely card
+        card: glance
         filter:
           include:
             - []

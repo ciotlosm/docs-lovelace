@@ -8,7 +8,7 @@ A very simple card that allows you to set an image to use for navigation to vari
 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
-| type | string | **Required** | `picture-entity`
+| type | string | **Required** | `picture`
 | image | string | **Required**| URL of an image.
 | navigation_path | string | Optional | Path of URL to navigate to
 | service | string | Optional | `light.toggle`

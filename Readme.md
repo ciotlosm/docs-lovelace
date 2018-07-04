@@ -1,10 +1,6 @@
-# Lovelace UI - [0.73.0b5](changelog.md)
+# [Lovelace UI](https://www.home-assistant.io/lovelace) - [0.73.0b5](changelog.md)
 
-> Use [0.72.0 branch](https://github.com/ciotlosm/docs-lovelace/tree/0.72.1) for older docs
-
-<img align="right" height="250px" src="https://user-images.githubusercontent.com/7738048/41777567-6f8caa1a-7634-11e8-8ff4-a0589240d724.png">
-
-Starting with Home Assistant 0.72, we're experimenting with a new way of defining your interface. We're calling it the Lovelace UI.
+> Use [0.72.1 branch](https://github.com/ciotlosm/docs-lovelace/tree/0.72.1) for older docs
 
 **Contents**
   * [Overview](#overview)
@@ -18,15 +14,7 @@ Starting with Home Assistant 0.72, we're experimenting with a new way of definin
   * [Debugging](#debugging)
   * [Example](#example)
 
-## Overview
-The Lovelace UI is:
-
- - **Extremely fast**. We create the user interface when the UI configuration changes. When a state changes, we just make the UI represent the current state.
- - **Extremely customizable**. We have a new file for just configuration. In the past, we declined UI specific options because they did not fit in the state machine. They will fit in a configuration file for a user interface.
- - **Extremely extensible**. It's based on the web standard [custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements). Don't like the built-in cards? Make your own! Custom cards are treated the same as built-in cards and are configured the same way. [Check the docs.](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html)
- - **Making the backend faster**. With Lovelace, the backend will no longer need to maintain entities like groups for the sole purpose of showing them on the frontend.
-
-> This is the very very early version aimed at gathering feedback. Discussion and suggestions are welcome in the [ui-schema repository](https://github.com/home-assistant/ui-schema/issues).
+<img align="right" height="250px" src="https://user-images.githubusercontent.com/7738048/41777567-6f8caa1a-7634-11e8-8ff4-a0589240d724.png">
 
 ## Cards
 Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
@@ -47,53 +35,23 @@ Cards are the smallest unit of organisation, and provide a great setup to group 
 - [vertical-stack](card-vertical-stack.md)
 - [weather-forecast](card-weather-forecast.md)
 
-You can also have custom cards now. The way to add custom cards is [really easy](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html)!
-
 ## Views
-These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. The views have now deep links like `/lovelace/3`. You can also assign your own custom id.
+These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. The views have now deep links like `/lovelace/0`. You can also assign your own [custom ids](view-custom-id.md).
+
+| Name | Type | Default | Description
+| ---- | ---- | ------- | -----------
+| title | string | Optional | Text title of the view
+| id | string | number | The id to use in URL path of this view
+| icon | string | Optional | The material design icon for the view, uses this instead of title
+| panel | boolean | false | Marks view as a panel reusing the first card in list
 
 ![views](https://user-images.githubusercontent.com/7738048/41777460-0c432b6e-7634-11e8-8738-ca078a552d06.gif)
 
-Examples:
-
-Without icon:
-```yaml
-views:
-- title: Home
-```
-
-With icon and hover text:
-```yaml
-views:
-- icon: mdi:settings
-  id: debug
-  title: Debugging
-```
-
-Panel with a full screen card:
-```yaml
-views:
-- icon: mdi:settings
-  id: debug
-  title: Floorplan
-  panel: true
-    cards:
-      - type: picture-elements
-        image: /local/floorplans/main.jpg
-        elements:
-          - type: state-icon
-            tap_action: toggle
-            entity: light.ceiling_lights
-            style:
-              top: 47%
-              left: 42%
-```
-
-> The view above will be accessible using `/lovelace/debug`
-
-### Known issues
-
-- Theme is currently only partially usable (font color works)
+**Various view types**
+- Using custom id in view, for [nicer navigation paths](view-custom-id.md) in URLs
+- Using [icons for tabs](view-icon.md) instead of text
+- Using a card to [fill a complete view](view-panel.md), just like panels
+- Using themes in views
 
 ## Migration scripts
 
@@ -149,10 +107,21 @@ frontend:
 Templating cards is really easy now with custom cards. See the example in the [docs](https://developers.home-assistant.io/docs/en/lovelace_custom_card.html#defining-your-card). I recommend trying it out just to see how simple it can be.
 
 ## Debugging
-As entities no longer show up automatically on your interface, it is recommended that you get a View to show everything you have available to configure inside cards on your interface and other views. This requires a new type of card TBC.
+As entities no longer show up automatically on your interface, it is recommended that you get a View to show everything you have available to configure inside cards on your interface and other views. There is now available a custom card (["monster card"](https://github.com/ciotlosm/custom-lovelace)) to achieve this.
 
 ```yaml
-TBC
+views:
+- icon: mdi:settings
+  id: debug
+    cards:
+      - type: "custom:monster-card"
+        title: Debugging
+        filter:
+          include:
+            - []
+          exclude:
+            - domain: group
+            - domain: zone
 ```
 
 ## Example

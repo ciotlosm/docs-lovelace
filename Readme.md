@@ -82,6 +82,8 @@ frontend:
 ## Debugging
 As entities no longer show up automatically on your interface, it is recommended that you get a View to show everything you have available to configure inside cards on your interface and other views. There is now available a custom card (["monster card"](https://github.com/ciotlosm/custom-lovelace)) to achieve this.
 
+> As of the time of writing (4th of July) this card is WIP
+
 ```yaml
 views:
 - icon: mdi:settings

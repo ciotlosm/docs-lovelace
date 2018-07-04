@@ -80,7 +80,7 @@ frontend:
 4. [Optional] To view the old dashboard just navigate to `/states`
 
 ## Debugging
-To see what entities you left out, you can now use the menu `Unused entities`.
+To see what entities you left out, you can now use the menu `Unused entities` in the header of Lovelace,  the top right corner.
 
 ![unused-entities](https://user-images.githubusercontent.com/7738048/42287697-0f1dfe00-7fc0-11e8-99ee-f5b312767879.png)
 

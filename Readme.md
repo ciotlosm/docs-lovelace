@@ -84,8 +84,8 @@ To see what entities you left out, you can now use the menu `Unused entities` in
 
 ![unused-entities](https://user-images.githubusercontent.com/7738048/42287697-0f1dfe00-7fc0-11e8-99ee-f5b312767879.png)
 
-## Rebirth of `entity-filter` from 0.72
-Due to popular request, a new custom card is now available (["monster card"](https://github.com/ciotlosm/custom-lovelace)) to achieve similar results as the previous `entity-filter`.
+## Monster card
+Due to popular request, a new custom card is now available (["monster card"](https://github.com/ciotlosm/custom-lovelace)) to achieve similar results as the previous `entity-filter`. The rebirth of `entity-filter` from 0.72.
 
 ```yaml
 views:

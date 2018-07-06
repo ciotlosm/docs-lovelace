@@ -1,4 +1,4 @@
-## Changes in 0.73.0b6
+## Changes in 0.73.0
 
 ### Views
 - :mega: New button to show unused entities in lovelace

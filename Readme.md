@@ -1,6 +1,6 @@
-# Lovelace UI - [0.73.0b6](changelog.md)
+# Lovelace UI - [0.73.0](changelog.md)
 
-> Use [0.72.1 branch](https://github.com/ciotlosm/docs-lovelace/tree/0.72.1) for older docs
+> Use [0.73.0 branch](https://github.com/ciotlosm/docs-lovelace/tree/0.73.0) for stable version docs
 
 Please follow [official docs](https://www.home-assistant.io/lovelace) and [developer docs](https://developers.home-assistant.io/docs/en/lovelace_index.html) for Lovelace UI. 
 

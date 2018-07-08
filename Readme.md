@@ -1,6 +1,6 @@
 # Lovelace UI
 
-:star: Please use [official docs](https://www.home-assistant.io/)
+:star: Please use [official docs](https://www.home-assistant.io/lovelace)
 
 ## [Changelog](changelog.md)
 

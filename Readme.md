@@ -1,6 +1,8 @@
-# [Lovelace UI](changelog.md)
+# Lovelace UI
 
 :star: Please use [official docs](https://www.home-assistant.io/)
+
+## [Changelog](changelog.md)
 
 ## Make Lovelace default
 
@@ -41,29 +43,10 @@ frontend:
 3. Restart your Home Assistant and force a clear cache on your browser and a few force reloads on IOS app
 4. [Optional] To view the old dashboard just navigate to `/states`
 
-## Debugging
+## Unused entities
 To see what entities you left out, you can now use the menu `Unused entities` in the header of Lovelace,  the top right corner.
 
 ![unused-entities](https://user-images.githubusercontent.com/7738048/42287697-0f1dfe00-7fc0-11e8-99ee-f5b312767879.png)
-
-## Monster card
-Due to popular request, a new custom card is now available (["monster card"](https://github.com/ciotlosm/custom-lovelace)) to achieve similar results as the previous `entity-filter`. The rebirth of `entity-filter` from 0.72.
-
-```yaml
-views:
-- icon: mdi:settings
-  id: debug
-    cards:
-      - type: "custom:monster-card"
-        card: 
-          type: glance
-          title: My lovely card
-        filter:
-          include: [{}]
-          exclude:
-            - domain: group
-            - domain: zone
-```
 
 ## Examples
 To get you started you can use the `demo` platfrom in your `configuration.yaml` and experiment with the various examples inside card docs.

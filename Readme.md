@@ -1,44 +1,6 @@
-# Lovelace UI - [0.73.0](changelog.md)
+# [Lovelace UI](changelog.md)
 
-> Use [0.73.0 branch](https://github.com/ciotlosm/docs-lovelace/tree/0.73.0) for stable version docs
-
-Please follow [official docs](https://www.home-assistant.io/lovelace) and [developer docs](https://developers.home-assistant.io/docs/en/lovelace_index.html) for Lovelace UI. 
-
-## Cards
-Cards are the smallest unit of organisation, and provide a great setup to group functionality. 
-
-- [entities](card-entities.md)
-- [entity-filter](card-entity-filter.md)
-- [glance](card-glance.md)
-- [history-graph](card-history-graph.md)
-- [horizontal-stack](card-horizontal-stack.md)
-- [iframe](card-iframe.md)
-- [markdown](card-markdown.md)
-- [media-control](card-media-control.md)
-- [picture](card-picture.md)
-- [picture-elements](card-picture-elements.md)
-- [picture-entity](card-picture-entity.md)
-- [picture-glance](card-picture-glance.md)
-- [plant-status](card-plant-status.md)
-- [vertical-stack](card-vertical-stack.md)
-- [weather-forecast](card-weather-forecast.md)
-
-## Views
-These are exactly as before, tab views with icons or text that help you manage large dashboards with many entities. The views have now deep links like `/lovelace/0`. You can also assign your own [custom ids](view-custom-id.md).
-
-- Using custom id in view, for [nicer navigation paths](view-custom-id.md) in URLs
-- Using [icons for tabs](view-icon.md) instead of text
-- Using a card to [fill a complete view](view-panel.md), just like panels
-- Using themes in views
-
-| Name | Type | Default | Description
-| ---- | ---- | ------- | -----------
-| title | string | Optional | Text title of the view
-| id | string | number | The id to use in URL path of this view
-| icon | string | Optional | The material design icon for the view, uses this instead of title
-| panel | boolean | false | Marks view as a panel reusing the first card in list
-
-![views](https://user-images.githubusercontent.com/7738048/41777460-0c432b6e-7634-11e8-8738-ca078a552d06.gif)
+:star: Please use [official docs](https://www.home-assistant.io/
 
 ## Make Lovelace default
 

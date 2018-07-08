@@ -1,6 +1,6 @@
 # [Lovelace UI](changelog.md)
 
-:star: Please use [official docs](https://www.home-assistant.io/
+:star: Please use [official docs](https://www.home-assistant.io/)
 
 ## Make Lovelace default
 

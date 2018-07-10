@@ -50,7 +50,7 @@ Click the `>> Set lovelace as default page page on this device <<` in `dev-info`
 
 #### Overview binding
 
-This is a **hack** that will bind `/lovelace` to **Overview** option in the menu instead of `/states` using javascript. It will also set default dashboard for `/` using the same mechanic as **Using UI** method. 
+This will set default dashboard to `/lovelace` on all devices. Might require a clear cache.
 
 1. Create a new file under your `config/www` folder and name it `lovelace.html`
 
@@ -58,11 +58,7 @@ Content of `lovelace.html`
 
 ```html
 <script>
-    var hack_element = document.querySelector('home-assistant').shadowRoot.querySelector('home-assistant-main').shadowRoot.querySelector('ha-sidebar').shadowRoot.querySelector('paper-icon-item[data-panel="states"]');
-    if (hack_element) {
-        hack_element.setAttribute("data-panel", "lovelace");
-        localStorage.defaultPage = 'lovelace';
-    }
+  localStorage.defaultPage = 'lovelace';
 </script>
 ```
 
